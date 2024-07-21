@@ -1,7 +1,7 @@
-# Mi Portafolio
+# WWE- DATABASE
 
 **Descripción del Proyecto:**
-Este proyecto consistió en diseñar una página web, conteniendo aspectos de mis proyectos e información personal en un portafolio. El objetivo principal fue mejorar la experiencia del usuario al navegar en mis conocimientos, destrezas y aptitudes.
+Este proyecto consistió en crear esta página de WWE como proyecto de práctica de desarrollo web, donde se aplican técnicas avanzadas de HTML, CSS, JavaScript y React con Bootstrap para crear una plataforma funcional y visualmente impresionante. El objetivo es demostrar habilidades en diseño web, desarrollo front-end y optimización de la experiencia del usuario.
 
 **Tecnologías Utilizadas:**
 - **Lenguajes de programación:** HTML y CSS, JavaScript.
