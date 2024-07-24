@@ -1,4 +1,4 @@
-import logo from './assets/img/logo.png';
+import logo from './assets/img/LogoWWEDatabase.png';
 import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';

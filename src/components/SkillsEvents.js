@@ -43,7 +43,7 @@ export const SkillsEvents = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Events</h2>
+                        <h2>Premium Live Events</h2>
                         <p>WWE Premium Live Events (PLE) are the pinnacle of sports entertainment, offering unforgettable shows that combine intense action, dramatic stories and world-class production. These events are cornerstones of the WWE calendar for fans around the world with their unique blend of excitement and spectacle.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
