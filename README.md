@@ -4,8 +4,8 @@
 Este proyecto consistió en crear esta página de WWE como proyecto de práctica de desarrollo web, donde se aplican técnicas avanzadas de HTML, CSS, JavaScript y React con Bootstrap para crear una plataforma funcional y visualmente impresionante. El objetivo es demostrar habilidades en diseño web, desarrollo front-end y optimización de la experiencia del usuario.
 
 **Tecnologías Utilizadas:**
-- **Lenguajes de programación:** HTML y CSS, JavaScript.
-- **Herramientas y frameworks:** React, Bootstrap
+- **Lenguajes de programación:** HTML<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> CSS<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+- **Herramientas y frameworks:** React <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> BootStrap <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
 
 ## Comenzando 🚀
 
