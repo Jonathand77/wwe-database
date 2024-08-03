@@ -48,10 +48,11 @@ export const NavBar = () => {
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Brands</Nav.Link>
               <Nav.Link href="#skillsEvent" className={activeLink === 'skillsEvent' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skillsEvent')}>Events</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Champions</Nav.Link>
+              <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>To Come</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="in/jonathan-david-fernandez-vargas-800b04279"><img src={navIcon1} alt="" /></a>
+                <a href="https://co.linkedin.com/in/jonathan-david-fernandez-vargas-800b04279"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.facebook.com/profile.php?id=100003792250786&mibextid=ZbWKwL"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/jonathandvid77?igsh=eGp6N2F4dTZnMDlu"><img src={navIcon3} alt="" /></a>
               </div>
