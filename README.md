@@ -1,44 +1,44 @@
 # WWE- DATABASE
 
-**Descripción del Proyecto:**
-Este proyecto consistió en crear esta página de WWE como proyecto de práctica de desarrollo web, donde se aplican técnicas avanzadas de HTML, CSS, JavaScript y React con Bootstrap para crear una plataforma funcional y visualmente impresionante. El objetivo es demostrar habilidades en diseño web, desarrollo front-end y optimización de la experiencia del usuario.
+**Project Description:**
+This project consisted of creating this WWE page as a web development practice project, where advanced HTML, CSS, JavaScript, and React techniques are applied with Bootstrap to create a functional and visually stunning platform. The goal is to demonstrate skills in web design, front-end development, and user experience optimization.
 
-**Tecnologías Utilizadas:**
-- **Lenguajes de programación:** HTML<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> CSS<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-- **Herramientas y frameworks:** React <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> BootStrap <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+**Technologies Used:** 
 
-## Comenzando 🚀
+- **Programming languages:** HTML<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> CSS<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css 3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+- **Tools and frameworks:** React <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> BootStrap <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+## Getting Started 🚀
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+_These instructions will get you a working copy of the project on your local machine for development and testing purposes._
 
+See **Deployment** to learn how to deploy the project.
 
-### Pre-requisitos 📋
+### Prerequisites 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_What things do you need to install the software and how to install them_
 
 ```
-- Asegúrate de tener Git instalado en tu sistema. Puedes descargarlo desde git-scm.com y seguir las instrucciones de instalación.
+- Make sure you have Git installed on your system. You can download it from git-scm.com and follow the installation instructions.
 - GitHub.
-- Un IDE como por ejemplo: VisualStudio Code.
-- Un navegador como por ejemplo: Chrome.
+- An IDE such as VisualStudio Code.
+- A browser such as Chrome.
 ```
 
-### Instalación 🔧
+### Installation 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_A series of step-by-step examples that tells you what you need to run to get a development environment up and running_
 
-_Clonar repositorio_
-
-```
-git clone https://github.com/usuario/nombre-del-repositorio.git
-```
-
-_Verifica la clonación_
+_Clone repository_
 
 ```
-cd nombre-del-repositorio
+git clone https://github.com/user/repository-name.git
+```
+
+_Verify cloning_
+
+```
+cd repository-name
 ```
 
 # Getting Started with Create React App
@@ -120,12 +120,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-## Expresiones de Gratitud 🎁
+## Expressions of Gratitude 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Dar las gracias públicamente 🤓.
-
-
+* Tell others about this project 📢
+* Say thank you publicly 🤓.
 
 ---
-⌨️ por [Jonathand77](https://github.com/Jonathand77) 😊
+⌨️ by [Jonathand77](https://github.com/Jonathand77) 😊
