@@ -1,14 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/GuntherCampeonW.png";
-import projImg2 from "../assets/img/WweChampion.png";
+import projImg2 from "../assets/img/CodyRhodesCampeon.png";
 import projImg3 from "../assets/img/LAKnightCampeonUS.png";
 import projImg4 from "../assets/img/BronBreakkerCampeonIC.png";
 import projImg5 from "../assets/img/StreetProfitsCampeonesTG.png";
 import projImg6 from "../assets/img/WarRidersCampeonesTG.png";
-import projImg7 from "../assets/img/ICChampion.png";
+import projImg7 from "../assets/img/IyoSkyCampeonaW.png";
 import projImg8 from "../assets/img/TiffanyCampeonaW.png";
-import projImg9 from "../assets/img/WweWNTGChampions.png";
+import projImg9 from "../assets/img/JudmentDayCampeonasTG.png";
 import projImg10 from "../assets/img/ObaFemiCampeonNXT.png";
 import projImg11 from "../assets/img/ShawnSpearsCampeonNA.png";
 import projImg12 from "../assets/img/FraxiomCampeonesNXTTG.png";
