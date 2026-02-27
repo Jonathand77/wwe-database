@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { BellFill } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import toComeImg from '../../assets/img/PosterWrestlemania.jpg';
+import toComeImg from '../../assets/img/Banners/PosterWrestlemania.jpg';
 import './ToCome.css';
 
 export const ToCome = () => {

@@ -1,31 +1,11 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { TrophyFill } from 'react-bootstrap-icons';
-import meter1 from '../../assets/img/BrandRaw.png';
-import meter2 from '../../assets/img/BrandSM.png';
-import meter3 from '../../assets/img/BrandNXT.png';
+import { defaultCarouselResponsive } from '../../data/carouselConfig';
+import { brands } from '../../data/brandsData';
 import './Brands.css';
 
 export const Brands = () => {
-  const brandsResponsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
   return (
     <section className="brands" id="brands">
       <div className="container">
@@ -42,22 +22,16 @@ export const Brands = () => {
                 adrenaline-filled content.
               </p>
               <Carousel
-                responsive={brandsResponsive}
+                responsive={defaultCarouselResponsive}
                 infinite
                 className="owl-carousel owl-theme brands-slider"
               >
-                <div className="brands-item">
-                  <img src={meter1} alt="RAW brand logo" />
-                  <h5>RAW</h5>
-                </div>
-                <div className="brands-item">
-                  <img src={meter2} alt="SmackDown brand logo" />
-                  <h5>SMACKDOWN</h5>
-                </div>
-                <div className="brands-item">
-                  <img src={meter3} alt="NXT brand logo" />
-                  <h5>NXT</h5>
-                </div>
+                {brands.map((brand) => (
+                  <div key={brand.id} className="brands-item">
+                    <img src={brand.image} alt={brand.alt} />
+                    <h5>{brand.name}</h5>
+                  </div>
+                ))}
               </Carousel>
             </div>
           </div>

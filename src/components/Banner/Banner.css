@@ -1,7 +1,7 @@
 .banner {
   margin-top: 0;
   padding: clamp(150px, 18vw, 260px) 0 clamp(72px, 10vw, 110px);
-  background-image: url('../../assets/img/Banner2.jpg');
+  background-image: url('../../assets/img/Banners/Banner2.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;

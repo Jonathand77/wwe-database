@@ -2,49 +2,19 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import { PeopleFill } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import colorSharp2 from '../../assets/img/Banner2.jpg';
-import projImg1 from '../../assets/img/GuntherCampeonW.png';
-import projImg2 from '../../assets/img/CodyRhodesCampeon.png';
-import projImg3 from '../../assets/img/LAKnightCampeonUS.png';
-import projImg4 from '../../assets/img/BronBreakkerCampeonIC.png';
-import projImg5 from '../../assets/img/StreetProfitsCampeonesTG.png';
-import projImg6 from '../../assets/img/WarRidersCampeonesTG.png';
-import projImg7 from '../../assets/img/IyoSkyCampeonaW.png';
-import projImg8 from '../../assets/img/TiffanyCampeonaW.png';
-import projImg9 from '../../assets/img/JudmentDayCampeonasTG.png';
-import projImg10 from '../../assets/img/ObaFemiCampeonNXT.png';
-import projImg11 from '../../assets/img/ShawnSpearsCampeonNA.png';
-import projImg12 from '../../assets/img/FraxiomCampeonesNXTTG.png';
-import projImg13 from '../../assets/img/StephanieVaquerCampeona.png';
-import projImg14 from '../../assets/img/StephanieVaquerCampeona.png';
+import colorSharp2 from '../../assets/img/Banners/Banner2.jpg';
 import { ProjectCard } from '../ProjectCard';
+import { rosterTabs } from '../../data/rosterData';
 import './Projects.css';
 
 export const Projects = () => {
-  const projects = [
-    { title: 'Gunther', description: 'World Champion', imgUrl: projImg1 },
-    { title: 'Cody Rhodes', description: 'WWE Champion', imgUrl: projImg2 },
-    { title: 'LA Knight', description: 'United States Champion', imgUrl: projImg3 },
-    { title: 'Bron Breakker', description: 'Intercontinental Champion', imgUrl: projImg4 },
-    { title: 'Street Profits', description: 'WWE Tag Team Champions', imgUrl: projImg5 },
-    { title: 'War Riders', description: 'World Tag Team Champions', imgUrl: projImg6 },
-    { title: 'Iyo Sky', description: 'World Women´s Champion', imgUrl: projImg7 },
-    { title: 'Tiffany Straton', description: 'WWE Women´s Champion', imgUrl: projImg8 },
-    {
-      title: 'Judment Day | Liv Morgan & Raquel Rodriguez',
-      description: 'World Tag Team Women´s Champions',
-      imgUrl: projImg9,
-    },
-    { title: 'Oba Femi', description: 'NXT Champion', imgUrl: projImg10 },
-    { title: 'Shawn Spears', description: 'NXT North American Champion', imgUrl: projImg11 },
-    { title: 'Fraxiom', description: 'NXT Tag Team Champions', imgUrl: projImg12 },
-    { title: 'Stephanie Vaquer', description: 'NXT Women´s Champion', imgUrl: projImg13 },
-    {
-      title: 'Stephanie Vaquer',
-      description: 'nxt Women´s North American Champion',
-      imgUrl: projImg14,
-    },
-  ];
+  const renderProjectGrid = (items, variant) => (
+    <Row>
+      {items.map((project) => (
+        <ProjectCard key={project.id} variant={variant} {...project} />
+      ))}
+    </Row>
+  );
 
   return (
     <section className="project" id="projects">
@@ -69,43 +39,21 @@ export const Projects = () => {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Champions</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Roster</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">leyends</Nav.Link>
-                      </Nav.Item>
+                      {rosterTabs.map((tab) => (
+                        <Nav.Item key={tab.id}>
+                          <Nav.Link eventKey={tab.id}>{tab.label}</Nav.Link>
+                        </Nav.Item>
+                      ))}
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
                       className={isVisible ? 'animate__animated animate__slideInUp' : ''}
                     >
-                      <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => (
-                            <ProjectCard key={index} {...project} />
-                          ))}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="second">
-                        <p>
-                          Welcome to the WWE Roster section, where you can explore and get to know the
-                          superstars that make up the universe of professional wrestling. This section is
-                          designed to provide detailed and updated information about each male and female
-                          fighter that makes up the star scene today.
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Welcome to the WWE Roster section, where you can explore and get to know the
-                          superstars that make up the universe of professional wrestling. This section is
-                          designed to provide detailed and up-to-date information on each of the most
-                          iconic fighters of all time.
-                        </p>
-                      </Tab.Pane>
+                      {rosterTabs.map((tab) => (
+                        <Tab.Pane key={tab.id} eventKey={tab.id}>
+                          {renderProjectGrid(tab.items, tab.variant)}
+                        </Tab.Pane>
+                      ))}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
