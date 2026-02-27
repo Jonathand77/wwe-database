@@ -39,14 +39,19 @@
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
     background:
     linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
     radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  min-height: 230px;
+  min-height: 210px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  color: inherit;
+  cursor: default;
+  appearance: none;
   transition: 
     transform 0.25s ease,
     box-shadow 0.25s ease,
@@ -60,7 +65,29 @@
   box-shadow: 
     0 20px 40px rgba(0, 0, 0, 0.25),
     0 0 0 1px rgba(255, 255, 255, 0.05);
-  z-index: 5;
+  z-index: 5;  
+  transform: translateY(-6px) scale(1.01);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 14px 28px rgba(10, 12, 22, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.07);
+}
+
+.events .events-slider .events-item--active {
+  cursor: pointer;
+}
+
+.events .events-slider .events-item--active:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 2px;
+}
+
+.events .events-slider .events-item--disabled {
+  opacity: 0.8;
+}
+
+.events .events-slider .events-item--disabled:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .events .events-slider .events-item img {

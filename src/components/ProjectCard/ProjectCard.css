@@ -42,6 +42,10 @@
   background: linear-gradient(90.21deg, #ff0000 -5.91%, #6f0f2a 111.58%);
 }
 
+.proj-imgbx--royal-rumble::before {
+  background: linear-gradient(90.21deg, #d4af37 -5.91%, #8a1c1c 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }

@@ -4,5 +4,6 @@ export * from './Brands';
 export * from './Events';
 export * from './Projects';
 export * from './ProjectCard';
+export * from './EventDetail';
 export * from './ToCome';
 export * from './Footer';

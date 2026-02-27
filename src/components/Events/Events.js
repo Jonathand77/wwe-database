@@ -3,9 +3,16 @@ import 'react-multi-carousel/lib/styles.css';
 import { CalendarEventFill } from 'react-bootstrap-icons';
 import { defaultCarouselResponsive } from '../../data/carouselConfig';
 import { events } from '../../data/eventsData';
+import { hasEventDetail } from '../../data/eventDetailsData';
 import './Events.css';
 
-export const Events = () => {
+export const Events = ({ onSelectEvent }) => {
+  const handleEventClick = (eventId) => {
+    if (hasEventDetail(eventId) && onSelectEvent) {
+      onSelectEvent(eventId);
+    }
+  };
+
   return (
     <section className="events" id="events">
       <div className="container">
@@ -27,10 +34,17 @@ export const Events = () => {
                 className="owl-carousel owl-theme events-slider"
               >
                 {events.map((event) => (
-                  <div key={event.id} className="events-item">
+                  <button
+                    key={event.id}
+                    type="button"
+                    className={`events-item ${hasEventDetail(event.id) ? 'events-item--active' : 'events-item--disabled'}`}
+                    onClick={() => handleEventClick(event.id)}
+                    disabled={!hasEventDetail(event.id)}
+                    aria-label={`Open ${event.name} details`}
+                  >
                     <img src={event.image} alt={event.alt} />
                     <h5>{event.name}</h5>
-                  </div>
+                  </button>
                 ))}
               </Carousel>
             </div>
