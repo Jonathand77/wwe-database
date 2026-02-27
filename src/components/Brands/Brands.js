@@ -7,7 +7,7 @@ import meter3 from '../../assets/img/BrandNXT.png';
 import './Brands.css';
 
 export const Brands = () => {
-  const responsive = {
+  const brandsResponsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
@@ -27,11 +27,11 @@ export const Brands = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="brands" id="brands">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
+            <div className="brands-box wow zoomIn">
               <h2 className="section-title">
                 <TrophyFill /> Brands
               </h2>
@@ -41,16 +41,20 @@ export const Brands = () => {
                 brand has its own unique style and charm, providing fans with a variety of exciting,
                 adrenaline-filled content.
               </p>
-              <Carousel responsive={responsive} infinite className="owl-carousel owl-theme skill-slider">
-                <div className="item">
+              <Carousel
+                responsive={brandsResponsive}
+                infinite
+                className="owl-carousel owl-theme brands-slider"
+              >
+                <div className="brands-item">
                   <img src={meter1} alt="RAW brand logo" />
                   <h5>RAW</h5>
                 </div>
-                <div className="item">
+                <div className="brands-item">
                   <img src={meter2} alt="SmackDown brand logo" />
                   <h5>SMACKDOWN</h5>
                 </div>
-                <div className="item">
+                <div className="brands-item">
                   <img src={meter3} alt="NXT brand logo" />
                   <h5>NXT</h5>
                 </div>

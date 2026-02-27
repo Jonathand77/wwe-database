@@ -1,14 +1,14 @@
-.skills {
+.events {
   padding: 0 0 clamp(54px, 7vw, 88px);
   position: relative;
 }
 
-.skills h2 {
+.events h2 {
   font-size: clamp(28px, 5vw, 44px);
   font-weight: 700;
 }
 
-.skills p {
+.events p {
   color: var(--color-muted);
   font-size: clamp(15px, 2vw, 18px);
   letter-spacing: 0.35px;
@@ -17,7 +17,7 @@
   max-width: 900px;
 }
 
-.skills .skill-bx {
+.events .events-box {
   background: var(--color-surface);
   border-radius: var(--radius-xl);
   text-align: center;
@@ -28,14 +28,17 @@
   backdrop-filter: blur(6px);
 }
 
-.skills .skill-slider {
+.events .events-slider {
   width: min(95%, 1120px);
   margin: 0 auto;
 }
 
-.skills .skill-slider .item {
+.events .events-slider .events-item {
   padding: 12px;
   border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
     background:
     linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
     radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
@@ -44,30 +47,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: transform 0.25s ease, border-color 0.25s ease;
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  will-change: transform;
 }
 
-.skills .skill-slider .item:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255, 255, 255, 0.28);
+.events .events-slider .events-item:hover {
+  transform: scale(1.04);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+  z-index: 5;
 }
 
-.skills .skill-slider .item img {
+.events .events-slider .events-item img {
   width: min(60%, 176px);
   margin: 0 auto 12px;
 }
 
-.skills .skill-slider .item h5 {
+.events .events-slider .events-item h5 {
   font-size: 0.93rem;
   letter-spacing: 0.8px;
 }
 
 @media (max-width: 767px) {
-  .skills .skill-bx {
+  .events .events-box {
     border-radius: 20px;
   }
 
-  .skills .skill-slider .item {
+  .events .events-slider .events-item {
     min-height: 196px;
   }
 }

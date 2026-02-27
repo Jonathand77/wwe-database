@@ -42,16 +42,16 @@ export const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#skills"
-              className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
-              onClick={() => onUpdateActiveLink('skills')}
+              href="#brands"
+              className={activeLink === 'brands' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink('brands')}
             >
               Brands
             </Nav.Link>
             <Nav.Link
-              href="#skillsEvent"
-              className={activeLink === 'skillsEvent' ? 'active navbar-link' : 'navbar-link'}
-              onClick={() => onUpdateActiveLink('skillsEvent')}
+              href="#events"
+              className={activeLink === 'events' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink('events')}
             >
               Events
             </Nav.Link>
@@ -63,9 +63,9 @@ export const NavBar = () => {
               Champions
             </Nav.Link>
             <Nav.Link
-              href="#connect"
-              className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'}
-              onClick={() => onUpdateActiveLink('connect')}
+              href="#to-come"
+              className={activeLink === 'toCome' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink('toCome')}
             >
               To Come
             </Nav.Link>

@@ -2,13 +2,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { BellFill } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import contactImg from '../../assets/img/PosterWrestlemania.jpg';
+import toComeImg from '../../assets/img/PosterWrestlemania.jpg';
 import './ToCome.css';
 
 export const ToCome = () => {
 
   return (
-    <section className="contact" id="connect">
+    <section className="to-come" id="to-come">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -16,8 +16,8 @@ export const ToCome = () => {
               {({ isVisible }) => (
                 <img
                   className={isVisible ? 'animate__animated animate__zoomIn' : ''}
-                  src={contactImg}
-                  alt="Contact Us"
+                  src={toComeImg}
+                  alt="WWE teaser poster"
                 />
               )}
             </TrackVisibility>

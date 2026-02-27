@@ -1,9 +1,9 @@
-.skill {
+.brands {
   padding: 0 0 clamp(62px, 8vw, 100px);
   position: relative;
 }
 
-.skill-bx {
+.brands-box {
   background: var(--color-surface);
   border-radius: var(--radius-xl);
   text-align: center;
@@ -14,12 +14,12 @@
   backdrop-filter: blur(6px);
 }
 
-.skill h2 {
+.brands h2 {
   font-size: clamp(28px, 5vw, 44px);
   font-weight: 700;
 }
 
-.skill p {
+.brands p {
   color: var(--color-muted);
   font-size: clamp(15px, 2vw, 18px);
   letter-spacing: 0.4px;
@@ -28,15 +28,18 @@
   max-width: 900px;
 }
 
-.skill-slider {
+.brands-slider {
   width: min(92%, 980px);
   margin: 0 auto;
   position: relative;
 }
 
-.skill-slider .item {
+.brands-slider .brands-item {
   padding: 12px;
   border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
     background:
     linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
     radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
@@ -45,30 +48,40 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: transform 0.25s ease, border-color 0.25s ease;
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  will-change: transform;
 }
 
-.skill-slider .item:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255, 255, 255, 0.28);
+.brands-slider .brands-item:hover {
+  transform: scale(1.04);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+  z-index: 5;  transform: translateY(-6px) scale(1.01);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 14px 28px rgba(10, 12, 22, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.07);
 }
 
-.skill-slider .item img {
+.brands-slider .brands-item img {
   width: min(58%, 170px);
   margin: 0 auto 12px;
 }
 
-.skill-slider .item h5 {
+.brands-slider .brands-item h5 {
   font-size: 1rem;
   letter-spacing: 1px;
 }
 
 @media (max-width: 767px) {
-  .skill-bx {
+  .brands-box {
     border-radius: 20px;
   }
 
-  .skill-slider .item {
+  .brands-slider .brands-item {
     min-height: 188px;
   }   
 }
