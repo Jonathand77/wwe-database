@@ -1,0 +1,75 @@
+.proj-imgbx img {
+  width: 100%;
+  height: 100%;
+  max-height: 270px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+      background:
+    linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
+    radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
+}
+
+.proj-imgbx {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  min-height: 260px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.proj-imgbx::before {
+  content: '';
+  background: linear-gradient(90.21deg, #991d2b -5.91%, #382297 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 500px;
+  height: 0;
+  left: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+
+.proj-imgbx:hover img {
+  transform: scale(1.05);
+}
+
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.proj-txtx h4 {
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.1em;
+}
+
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(13px, 1.7vw, 15px);
+  letter-spacing: 0.4px;
+}
+
+@media (max-width: 767px) {
+  .proj-imgbx {
+    min-height: 232px;
+  }
+}

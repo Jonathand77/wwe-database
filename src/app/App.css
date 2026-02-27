@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  isolation: isolate;
+}
+
+.App > section {
+  scroll-margin-top: 88px;
+}
+
+@media (max-width: 991px) {
+  .App > section {
+    scroll-margin-top: 70px;
+  }
+}

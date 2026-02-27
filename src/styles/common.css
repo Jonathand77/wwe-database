@@ -1,0 +1,57 @@
+.social-icon {
+  display: inline-flex;
+  gap: 10px;
+  margin-left: 14px;
+}
+
+.social-icon a {
+  width: 46px;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.08);
+  display: inline-flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.22s ease, border-color 0.22s ease;
+}
+
+.social-icon a::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--gradient-primary);
+  border-radius: inherit;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+
+.social-icon a:hover {
+  transform: translateY(-2px);
+  border-color: transparent;
+}
+
+.social-icon a img {
+  width: 42%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover img {
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 767px) {
+  .social-icon {
+    margin-left: 0;
+    justify-content: center;
+  }
+}

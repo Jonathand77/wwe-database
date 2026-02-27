@@ -1,0 +1,37 @@
+.footer {
+  padding: clamp(34px, 6vw, 58px) 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.footer .container {
+  position: relative;
+  z-index: 1;
+}
+
+.footer img {
+  width: clamp(92px, 15vw, 140px);
+  margin-inline: auto;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-muted);
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+  .footer p {
+    margin-top: 14px;
+  }
+}

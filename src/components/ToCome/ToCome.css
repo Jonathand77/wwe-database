@@ -1,0 +1,56 @@
+.contact {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: clamp(60px, 8vw, 84px) 0 clamp(90px, 10vw, 150px);
+  background:
+    linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
+    radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(9, 11, 17, 0.44), rgba(9, 11, 17, 0.56));
+  pointer-events: none;
+}
+
+.contact img {
+  width: 100%;
+  border-radius: 24px;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+  z-index: 1;
+}
+
+.contact h2 {
+  font-size: clamp(30px, 5vw, 45px);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.to-come-content {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  background: rgba(30, 30, 50, 0.70);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 22px;
+  padding: clamp(22px, 4vw, 34px);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(7px);
+}
+
+.to-come-content p {
+  color: var(--color-muted);
+  line-height: 1.7;
+  font-size: clamp(15px, 2vw, 18px);
+}
+
+@media (max-width: 991px) {
+  .to-come-content {
+    margin-top: 26px;
+    text-align: center;
+  }
+}

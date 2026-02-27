@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Centra;
+  src: url('../assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('../assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('../assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
+}
+
+:root {
+  --color-bg: #0d1020;
+  --color-bg-soft: #121420;
+  --color-surface: rgba(26, 30, 50, 0.62);
+  --color-text: #f7f8fc;
+  --color-muted: #ccd2ea;
+  --color-primary: #b6212f;
+  --color-secondary: #4a2fbd;
+  --gradient-primary: linear-gradient(120deg, var(--color-primary), var(--color-secondary));
+  --radius-lg: 28px;
+  --radius-xl: 42px;
+  --shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--color-bg) !important;
+  color: var(--color-text) !important;
+  font-family: 'Centra', sans-serif !important;
+  text-rendering: optimizeLegibility;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(900px circle at 5% 10%, rgba(182, 33, 47, 0.2), transparent 52%),
+    radial-gradient(800px circle at 95% 20%, rgba(74, 47, 189, 0.22), transparent 54%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+section {
+  position: relative;
+}
+
+.section-title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fluid-bg {
+  object-fit: cover;
+  opacity: 0.48;
+  filter: saturate(1.05);
+}
+
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+p.success {
+  color: #74d47f;
+}
+
+p.danger {
+  color: #ff8d8d;
+}
+
+@media (max-width: 991px) {
+  html {
+    scroll-padding-top: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  body::before {
+    background:
+      radial-gradient(480px circle at 15% 8%, rgba(182, 33, 47, 0.16), transparent 50%),
+      radial-gradient(460px circle at 85% 15%, rgba(74, 47, 189, 0.18), transparent 50%);
+  }
+}

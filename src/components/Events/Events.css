@@ -1,0 +1,73 @@
+.skills {
+  padding: 0 0 clamp(54px, 7vw, 88px);
+  position: relative;
+}
+
+.skills h2 {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 700;
+}
+
+.skills p {
+  color: var(--color-muted);
+  font-size: clamp(15px, 2vw, 18px);
+  letter-spacing: 0.35px;
+  line-height: 1.65;
+  margin: 16px auto clamp(28px, 6vw, 64px);
+  max-width: 900px;
+}
+
+.skills .skill-bx {
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  padding: clamp(30px, 5vw, 58px) clamp(18px, 5vw, 50px);
+  margin-top: -56px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(6px);
+}
+
+.skills .skill-slider {
+  width: min(95%, 1120px);
+  margin: 0 auto;
+}
+
+.skills .skill-slider .item {
+  padding: 12px;
+  border-radius: 20px;
+    background:
+    linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
+    radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.skills .skill-slider .item:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.skills .skill-slider .item img {
+  width: min(60%, 176px);
+  margin: 0 auto 12px;
+}
+
+.skills .skill-slider .item h5 {
+  font-size: 0.93rem;
+  letter-spacing: 0.8px;
+}
+
+@media (max-width: 767px) {
+  .skills .skill-bx {
+    border-radius: 20px;
+  }
+
+  .skills .skill-slider .item {
+    min-height: 196px;
+  }
+}
