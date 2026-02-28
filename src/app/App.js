@@ -4,7 +4,7 @@ import '../styles/global.css';
 import '../styles/common.css';
 import './App.css';
 import { Banner, ToCome, Footer, NavBar, Projects, Brands, Events, EventDetail } from '../components';
-import { hasEventDetail } from '../data/eventDetailsData';
+import { hasEventDetail } from '../data/RoyalRumbleData';
 
 function App() {
   const [selectedEventId, setSelectedEventId] = useState(null);
