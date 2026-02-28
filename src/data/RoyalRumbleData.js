@@ -1,42 +1,70 @@
 import logo1 from '../assets/img/RoyalRumble/Logos/1988.png';
+import logo2 from '../assets/img/RoyalRumble/Logos/1989.png';
+import logo3 from '../assets/img/RoyalRumble/Logos/1990-1994.png';
+import logo4 from '../assets/img/RoyalRumble/Logos/1995.png';
+import logo5 from '../assets/img/RoyalRumble/Logos/1996-1997.png';
+import logo6 from '../assets/img/RoyalRumble/Logos/1998.png';
+import logo7 from '../assets/img/RoyalRumble/Logos/1999.png';
+import logo8 from '../assets/img/RoyalRumble/Logos/2000.png';
+import logo9 from '../assets/img/RoyalRumble/Logos/2001.png';
+import logo10 from '../assets/img/RoyalRumble/Logos/2002.png';
+import logo11 from '../assets/img/RoyalRumble/Logos/2003.png';
+import logo12 from '../assets/img/RoyalRumble/Logos/2004.png';
+import logo13 from '../assets/img/RoyalRumble/Logos/2005.png';
+import logo14 from '../assets/img/RoyalRumble/Logos/2006.png';
+import logo15 from '../assets/img/RoyalRumble/Logos/2007.png';
+import logo16 from '../assets/img/RoyalRumble/Logos/2008.png';
+import logo17 from '../assets/img/RoyalRumble/Logos/2009.png';
+import logo18 from '../assets/img/RoyalRumble/Logos/2010.png';
+import logo19 from '../assets/img/RoyalRumble/Logos/2011.png';
+import logo20 from '../assets/img/RoyalRumble/Logos/2012.png';
+import logo21 from '../assets/img/RoyalRumble/Logos/2013-2014.png';
+import logo22 from '../assets/img/RoyalRumble/Logos/2015.png';
+import logo23 from '../assets/img/RoyalRumble/Logos/2016.png';
+import logo24 from '../assets/img/RoyalRumble/Logos/2017-2018.png';
+import logo25 from '../assets/img/RoyalRumble/Logos/2019-2020.png';
+import logo26 from '../assets/img/RoyalRumble/Logos/2021.png';
+import logo27 from '../assets/img/RoyalRumble/Logos/2022-2024.png';
+import logo28 from '../assets/img/RoyalRumble/Logos/2025.png';
+import logo29 from '../assets/img/RoyalRumble/Logos/2026.png';
 
-import winner1 from '../assets/img/RoyalRumble/Ganadores/JimDuggan.png';
-import winner2 from '../assets/img/RoyalRumble/Ganadores/BigJohnStudd.webp';
-import winner3 from '../assets/img/RoyalRumble/Ganadores/HulkHogan.png';
-import winner5 from '../assets/img/RoyalRumble/Ganadores/RicFlair.png';
-import winner6 from '../assets/img/RoyalRumble/Ganadores/Yokozuna.png';
-import winner7 from '../assets/img/RoyalRumble/Ganadores/Hart&Luger.png';
-import winner8 from '../assets/img/RoyalRumble/Ganadores/ShawnMichaels.png';
-import winner10 from '../assets/img/RoyalRumble/Ganadores/StoneCold.png';
-import winner12 from '../assets/img/RoyalRumble/Ganadores/Vince.png';
-import winner13 from '../assets/img/RoyalRumble/Ganadores/Rock.png';
-import winner14 from '../assets/img/RoyalRumble/Ganadores/SteveAustin.png';
-import winner15 from '../assets/img/RoyalRumble/Ganadores/TripleH.png';
-import winner16 from '../assets/img/RoyalRumble/Ganadores/BrockLesnar.png';
-import winner17 from '../assets/img/RoyalRumble/Ganadores/ChrisBenoit.png';
-import winner18 from '../assets/img/RoyalRumble/Ganadores/Batista.png';
-import winner19 from '../assets/img/RoyalRumble/Ganadores/ReyMysterio.png';
-import winner20 from '../assets/img/RoyalRumble/Ganadores/Undertaker.png';
-import winner21 from '../assets/img/RoyalRumble/Ganadores/JohnCena.png';
-import winner22 from '../assets/img/RoyalRumble/Ganadores/RandyOrton.png';
-import winner23 from '../assets/img/RoyalRumble/Ganadores/Edge.png';
-import winner24 from '../assets/img/RoyalRumble/Ganadores/Alberto.png';
-import winner25 from '../assets/img/RoyalRumble/Ganadores/Sheamus.png';
-import winner26 from '../assets/img/RoyalRumble/Ganadores/JohnCena2.png';
-import winner27 from '../assets/img/RoyalRumble/Ganadores/Batista2.png';
-import winner28 from '../assets/img/RoyalRumble/Ganadores/RomanReigns.png';
-import winner29 from '../assets/img/RoyalRumble/Ganadores/TripleH2.png';
-import winner30 from '../assets/img/RoyalRumble/Ganadores/RandyOrton2.png';
-import winner31 from '../assets/img/RoyalRumble/Ganadores/ShinsukeNakamura.png';
-import winner32 from '../assets/img/RoyalRumble/Ganadores/SethRollins.png';
-import winner33 from '../assets/img/RoyalRumble/Ganadores/DrewMcIntyre.png';
-import winner34 from '../assets/img/RoyalRumble/Ganadores/Edge2.png';
-import winner35 from '../assets/img/RoyalRumble/Ganadores/BrockLesnar2.png';
-import winner36 from '../assets/img/RoyalRumble/Ganadores/CodyRhodes.png';
-import winner38 from '../assets/img/RoyalRumble/Ganadores/JeyUso.webp';
-import winner39 from '../assets/img/RoyalRumble/Ganadores/RomanReigns2.png';
+import winner1 from '../assets/img/RoyalRumble/Winners/JimDuggan.png';
+import winner2 from '../assets/img/RoyalRumble/Winners/BigJohnStudd.webp';
+import winner3 from '../assets/img/RoyalRumble/Winners/HulkHogan.png';
+import winner5 from '../assets/img/RoyalRumble/Winners/RicFlair.png';
+import winner6 from '../assets/img/RoyalRumble/Winners/Yokozuna.png';
+import winner7 from '../assets/img/RoyalRumble/Winners/Hart&Luger.png';
+import winner8 from '../assets/img/RoyalRumble/Winners/ShawnMichaels.png';
+import winner10 from '../assets/img/RoyalRumble/Winners/StoneCold.png';
+import winner12 from '../assets/img/RoyalRumble/Winners/Vince.png';
+import winner13 from '../assets/img/RoyalRumble/Winners/Rock.png';
+import winner14 from '../assets/img/RoyalRumble/Winners/SteveAustin.png';
+import winner15 from '../assets/img/RoyalRumble/Winners/TripleH.png';
+import winner16 from '../assets/img/RoyalRumble/Winners/BrockLesnar.png';
+import winner17 from '../assets/img/RoyalRumble/Winners/ChrisBenoit.png';
+import winner18 from '../assets/img/RoyalRumble/Winners/Batista.png';
+import winner19 from '../assets/img/RoyalRumble/Winners/ReyMysterio.png';
+import winner20 from '../assets/img/RoyalRumble/Winners/Undertaker.png';
+import winner21 from '../assets/img/RoyalRumble/Winners/JohnCena.png';
+import winner22 from '../assets/img/RoyalRumble/Winners/RandyOrton.png';
+import winner23 from '../assets/img/RoyalRumble/Winners/Edge.png';
+import winner24 from '../assets/img/RoyalRumble/Winners/Alberto.png';
+import winner25 from '../assets/img/RoyalRumble/Winners/Sheamus.png';
+import winner26 from '../assets/img/RoyalRumble/Winners/JohnCena2.png';
+import winner27 from '../assets/img/RoyalRumble/Winners/Batista2.png';
+import winner28 from '../assets/img/RoyalRumble/Winners/RomanReigns.png';
+import winner29 from '../assets/img/RoyalRumble/Winners/TripleH2.png';
+import winner30 from '../assets/img/RoyalRumble/Winners/RandyOrton2.png';
+import winner31 from '../assets/img/RoyalRumble/Winners/ShinsukeNakamura.png';
+import winner32 from '../assets/img/RoyalRumble/Winners/SethRollins.png';
+import winner33 from '../assets/img/RoyalRumble/Winners/DrewMcIntyre.png';
+import winner34 from '../assets/img/RoyalRumble/Winners/Edge2.png';
+import winner35 from '../assets/img/RoyalRumble/Winners/BrockLesnar2.png';
+import winner36 from '../assets/img/RoyalRumble/Winners/CodyRhodes.png';
+import winner38 from '../assets/img/RoyalRumble/Winners/JeyUso.webp';
+import winner39 from '../assets/img/RoyalRumble/Winners/RomanReigns2.png';
 
-export const eventDetails = {
+export const royalRumbleEventDetails = {
   'royal-rumble': {
     id: 'royal-rumble',
     title: 'Royal Rumble',
@@ -90,12 +118,36 @@ export const eventDetails = {
         variant: 'royal-rumble',
         items: [
           { id: 'logo', title: 'Royal Rumble', description: '1988', imgUrl: logo1 },
+          { id: 'logo', title: 'Royal Rumble', description: '1989', imgUrl: logo2 },
+          { id: 'logo', title: 'Royal Rumble', description: '1990 - 1994', imgUrl: logo3 },
+          { id: 'logo', title: 'Royal Rumble', description: '1995', imgUrl: logo4 },
+          { id: 'logo', title: 'Royal Rumble', description: '1996 - 1997', imgUrl: logo5 },
+          { id: 'logo', title: 'Royal Rumble', description: '1998', imgUrl: logo6 },
+          { id: 'logo', title: 'Royal Rumble', description: '1999', imgUrl: logo7 },
+          { id: 'logo', title: 'Royal Rumble', description: '2000', imgUrl: logo8 },
+          { id: 'logo', title: 'Royal Rumble', description: '2001', imgUrl: logo9 },
+          { id: 'logo', title: 'Royal Rumble', description: '2002', imgUrl: logo10 },
+          { id: 'logo', title: 'Royal Rumble', description: '2003', imgUrl: logo11 },
+          { id: 'logo', title: 'Royal Rumble', description: '2004', imgUrl: logo12 },
+          { id: 'logo', title: 'Royal Rumble', description: '2005', imgUrl: logo13 },
+          { id: 'logo', title: 'Royal Rumble', description: '2006', imgUrl: logo14 },
+          { id: 'logo', title: 'Royal Rumble', description: '2007', imgUrl: logo15 },
+          { id: 'logo', title: 'Royal Rumble', description: '2008', imgUrl: logo16 },
+          { id: 'logo', title: 'Royal Rumble', description: '2009', imgUrl: logo17 },
+          { id: 'logo', title: 'Royal Rumble', description: '2010', imgUrl: logo18 },
+          { id: 'logo', title: 'Royal Rumble', description: '2011', imgUrl: logo19 },
+          { id: 'logo', title: 'Royal Rumble', description: '2012', imgUrl: logo20 },
+          { id: 'logo', title: 'Royal Rumble', description: '2013 - 2014', imgUrl: logo21 },
+          { id: 'logo', title: 'Royal Rumble', description: '2015', imgUrl: logo22 },
+          { id: 'logo', title: 'Royal Rumble', description: '2016', imgUrl: logo23 },
+          { id: 'logo', title: 'Royal Rumble', description: '2017 - 2018', imgUrl: logo24 },
+          { id: 'logo', title: 'Royal Rumble', description: '2019 - 2020', imgUrl: logo25 },
+          { id: 'logo', title: 'Royal Rumble', description: '2021', imgUrl: logo26 },
+          { id: 'logo', title: 'Royal Rumble', description: '2022 - 2024', imgUrl: logo27 },
+          { id: 'logo', title: 'Royal Rumble', description: '2025', imgUrl: logo28 },
+          { id: 'logo', title: 'Royal Rumble', description: '2026', imgUrl: logo29 },
         ],
       },
     ],
   },
 };
-
-export const getEventDetailById = (eventId) => eventDetails[eventId] || null;
-
-export const hasEventDetail = (eventId) => Boolean(eventDetails[eventId]);

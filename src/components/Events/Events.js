@@ -1,9 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { CalendarEventFill } from 'react-bootstrap-icons';
-import { defaultCarouselResponsive } from '../../data/carouselConfig';
-import { events } from '../../data/eventsData';
-import { hasEventDetail } from '../../data/RoyalRumbleData';
+import { defaultCarouselResponsive, events, hasEventDetail } from '../../data';
 import './Events.css';
 
 export const Events = ({ onSelectEvent }) => {

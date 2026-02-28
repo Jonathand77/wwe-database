@@ -3,7 +3,7 @@ import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import colorSharp2 from '../../assets/img/Banners/Banner2.jpg';
 import { ProjectCard } from '../ProjectCard';
-import { getEventDetailById } from '../../data/RoyalRumbleData';
+import { getEventDetailById } from '../../data';
 import './EventDetail.css';
 
 export const EventDetail = ({ eventId, onBack }) => {

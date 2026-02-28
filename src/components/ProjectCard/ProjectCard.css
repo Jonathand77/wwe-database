@@ -46,6 +46,10 @@
   background: linear-gradient(90.21deg, #d4af37 -5.91%, #8a1c1c 111.58%);
 }
 
+.proj-imgbx--elimination-chamber::before {
+  background: linear-gradient(90.21deg, #1a1f24 -5.91%, #2f8f7f 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }
