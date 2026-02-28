@@ -2,7 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { TrophyFill } from 'react-bootstrap-icons';
 import { defaultCarouselResponsive } from '../../data/carouselConfig';
-import { brands } from '../../data/brandsData';
+import { brands } from '../../data/BrandData/brandsData';
 import './Brands.css';
 
 export const Brands = () => {

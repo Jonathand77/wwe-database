@@ -1,6 +1,6 @@
-import rawLogo from '../assets/img/Brands/BrandRaw.png';
-import smackdownLogo from '../assets/img/Brands/BrandSM.png';
-import nxtLogo from '../assets/img/Brands/BrandNXT.png';
+import rawLogo from '../../assets/img/Brands/BrandRaw.png';
+import smackdownLogo from '../../assets/img/Brands/BrandSM.png';
+import nxtLogo from '../../assets/img/Brands/BrandNXT.png';
 
 export const brands = [
   { id: 'raw', 

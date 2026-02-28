@@ -1,5 +1,5 @@
-import { royalRumbleEventDetails } from './royalRumbleData';
-import { eliminationChamberDetail } from './eliminationChamberData';
+import { royalRumbleEventDetails } from '../PleData/royalRumbleData';
+import { eliminationChamberDetail } from '../PleData/eliminationChamberData';
 
 export const eventDetails = {
   ...royalRumbleEventDetails,

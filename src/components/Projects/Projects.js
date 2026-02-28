@@ -4,7 +4,7 @@ import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import colorSharp2 from '../../assets/img/Banners/Banner2.jpg';
 import { ProjectCard } from '../ProjectCard';
-import { rosterTabs } from '../../data/rosterData';
+import { rosterTabs } from '../../data/RosterData/rosterData';
 import './Projects.css';
 
 export const Projects = () => {
