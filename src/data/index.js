@@ -5,3 +5,4 @@ export * from './EventsData/eventDetailsData';
 export * from './EventsData/eventsData';
 export * from './RosterData/rosterData';
 export * from './PleData/royalRumbleData';
+export * from './PleData/wrestlemaniaData';

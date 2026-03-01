@@ -50,6 +50,10 @@
   background: linear-gradient(90.21deg, #1a1f24 -5.91%, #2f8f7f 111.58%);
 }
 
+.proj-imgbx--wrestlemania::before {
+  background: linear-gradient(90.21deg, #1b0781 -5.91%, #e7e318 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }
@@ -71,7 +75,7 @@
 }
 
 .proj-imgbx:hover .proj-txtx {
-  top: 50%;
+  top: 80%;
   opacity: 1;
 }
 
