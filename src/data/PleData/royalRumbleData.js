@@ -29,7 +29,7 @@ import logo28 from '../../assets/img/RoyalRumble/Logos/2025.png';
 import logo29 from '../../assets/img/RoyalRumble/Logos/2026.png';
 
 import winner1 from '../../assets/img/RoyalRumble/Winners/JimDuggan.png';
-import winner2 from '../../assets/img/RoyalRumble/Winners/BigJohnStudd.webp';
+import winner2 from '../../assets/img/RoyalRumble/Winners/BigJohnStudd.png';
 import winner3 from '../../assets/img/RoyalRumble/Winners/HulkHogan.png';
 import winner5 from '../../assets/img/RoyalRumble/Winners/RicFlair.png';
 import winner6 from '../../assets/img/RoyalRumble/Winners/Yokozuna.png';
@@ -38,7 +38,7 @@ import winner8 from '../../assets/img/RoyalRumble/Winners/ShawnMichaels.png';
 import winner10 from '../../assets/img/RoyalRumble/Winners/StoneCold.png';
 import winner12 from '../../assets/img/RoyalRumble/Winners/Vince.png';
 import winner13 from '../../assets/img/RoyalRumble/Winners/Rock.png';
-import winner14 from '../../assets/img/RoyalRumble/Winners/SteveAustin.png';
+import winner14 from '../../assets/img/RoyalRumble/Winners/StoneCold2.png';
 import winner15 from '../../assets/img/RoyalRumble/Winners/TripleH.png';
 import winner16 from '../../assets/img/RoyalRumble/Winners/BrockLesnar.png';
 import winner17 from '../../assets/img/RoyalRumble/Winners/ChrisBenoit.png';
@@ -61,7 +61,7 @@ import winner33 from '../../assets/img/RoyalRumble/Winners/DrewMcIntyre.png';
 import winner34 from '../../assets/img/RoyalRumble/Winners/Edge2.png';
 import winner35 from '../../assets/img/RoyalRumble/Winners/BrockLesnar2.png';
 import winner36 from '../../assets/img/RoyalRumble/Winners/CodyRhodes.png';
-import winner38 from '../../assets/img/RoyalRumble/Winners/JeyUso.webp';
+import winner38 from '../../assets/img/RoyalRumble/Winners/JeyUso.png';
 import winner39 from '../../assets/img/RoyalRumble/Winners/RomanReigns2.png';
 
 export const royalRumbleEventDetails = {
@@ -75,7 +75,7 @@ export const royalRumbleEventDetails = {
         label: 'Winners',
         variant: 'royal-rumble',
         items: [
-          { id: 'mens-rumble', title: 'Jim Duggan', description: '1988', imgUrl: winner1 },
+          { id: 'mens-rumble', title: '´Hacksaw´ Jim Duggan', description: '1988', imgUrl: winner1 },
           { id: 'mens-rumble-2', title: 'Big John Studd', description: '1989', imgUrl: winner2 },
           { id: 'mens-rumble-3', title: 'Hulk Hogan', description: '1990 - 1991', imgUrl: winner3 },
           { id: 'mens-rumble-4', title: 'Ric Flair', description: '1992', imgUrl: winner5 },

@@ -33,13 +33,14 @@ import Winner19 from '../../assets/img/EliminationChamber/Winners/NewDay.png';
 import Winner20 from '../../assets/img/EliminationChamber/Winners/BrayWyatt.png';
 import Winner21 from '../../assets/img/EliminationChamber/Winners/RomanReigns.png';
 import Winner22 from '../../assets/img/EliminationChamber/Winners/DanielBryan2.png';
-import Winner23 from '../../assets/img/EliminationChamber/Winners/Miz&Morrison.webp';
+import Winner23 from '../../assets/img/EliminationChamber/Winners/Miz&Morrison.png';
 import Winner24 from '../../assets/img/EliminationChamber/Winners/DanielBryan3.png';
 import Winner25 from '../../assets/img/EliminationChamber/Winners/DrewMcIntyre.png';
 import Winner26 from '../../assets/img/EliminationChamber/Winners/BrockLesnar.png';
 import Winner27 from '../../assets/img/EliminationChamber/Winners/AustinTheory.png';
 import Winner28 from '../../assets/img/EliminationChamber/Winners/DrewMcIntyre2.png';
 import Winner29 from '../../assets/img/EliminationChamber/Winners/JohnCena3.png';
+import Winner30 from '../../assets/img/EliminationChamber/Winners/RandyOrton2.png';
 
 export const eliminationChamberDetail = {
   id: 'elimination-chamber',
@@ -212,6 +213,11 @@ export const eliminationChamberDetail = {
           title: 'John Cena',
           description: 'Elimination Chamber 2025',
           imgUrl: Winner29,
+        },
+        { id: 'ec-winner-28',
+          title: 'Randy Orton',
+          description: 'Elimination Chamber 2026',
+          imgUrl: Winner30,
         },
       ],
     },
