@@ -45,7 +45,7 @@ import Winner30 from '../../assets/img/EliminationChamber/Winners/RandyOrton2.pn
 export const eliminationChamberDetail = {
   id: 'elimination-chamber',
   title: 'Elimination Chamber',
-  subtitle: 'Explore winners and event logos in a dedicated event view.',
+  subtitle: 'Explore winners and event editions in a dedicated event view.',
   tabs: [
     {
       id: 'winners',
@@ -223,7 +223,7 @@ export const eliminationChamberDetail = {
     },
     {
       id: 'logos',
-      label: 'Logos',
+      label: 'Editions',
       variant: 'elimination-chamber',
       items: [
         {

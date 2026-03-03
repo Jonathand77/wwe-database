@@ -68,7 +68,7 @@ export const royalRumbleEventDetails = {
   'royal-rumble': {
     id: 'royal-rumble',
     title: 'Royal Rumble',
-    subtitle: 'Explore winners and event logos in a dedicated event view.',
+    subtitle: 'Explore winners and event editions in a dedicated event view.',
     tabs: [
       {
         id: 'winners',
@@ -114,7 +114,7 @@ export const royalRumbleEventDetails = {
       },
       {
         id: 'logos',
-        label: 'Logos',
+        label: 'Editions',
         variant: 'royal-rumble',
         items: [
           { id: 'logo1', title: 'Royal Rumble', description: '1988', imgUrl: logo1 },

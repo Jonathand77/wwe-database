@@ -54,6 +54,14 @@
   background: linear-gradient(90.21deg, #1b0781 -5.91%, #e7e318 111.58%);
 }
 
+.proj-imgbx--clash-at-the-castle::before {
+  background: linear-gradient(90.21deg, #3f5b12 -5.91%, #ff5724 111.58%);
+}
+
+.proj-imgbx--money-in-the-bank::before {
+  background: linear-gradient(90.21deg, #0f6001 -5.91%, #1aff09 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }

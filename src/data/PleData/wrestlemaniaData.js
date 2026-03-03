@@ -44,11 +44,11 @@ import logo42 from '../../assets/img/Wrestlemania/Logos/42.png';
 export const wrestlemaniaDetail = {
   id: 'wrestlemania',
   title: 'WrestleMania',
-  subtitle: 'Explore event logos in a dedicated event view.',
+  subtitle: 'Explore event editions in a dedicated event view.',
   tabs: [
     {
       id: 'logos',
-      label: 'Logos',
+      label: 'Editions',
       variant: 'wrestlemania',
       items: [
         {
