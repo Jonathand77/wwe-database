@@ -6,5 +6,10 @@ export * from './RosterData/rosterData';
 export * from './PleData/royalRumbleData';
 export * from './PleData/eliminationChamberData';
 export * from './PleData/wrestlemaniaData';
-export * from './PleData/clash';
+export * from './PleData/clashData';
 export * from './PleData/moneyInTheBank';
+export * from './PleData/summerSlamData';
+export * from './PleData/crownJewelData';
+export * from './PleData/survivorSeriesData';
+
+

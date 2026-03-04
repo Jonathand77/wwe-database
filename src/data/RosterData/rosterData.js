@@ -1,34 +1,34 @@
-import worldChampion from '../../assets/img/Champions/WorldChampion.png';
-import wweChampion from '../../assets/img/Champions/WWEChampion.png';
-import usChampion from '../../assets/img/Champions/USChampion.png';
-import icChampion from '../../assets/img/Champions/ICChampion.png';
-import wweTagChampions from '../../assets/img/Champions/WWETagChampions.png';
-import worldTagChampions from '../../assets/img/Champions/WorldTagChampions.png';
-import worldWomenChampion from '../../assets/img/Champions/WorldWomenChampion.png';
-import wweWomenChampion from '../../assets/img/Champions/WWEWomenChampion.png';
-import womenTagChampions from '../../assets/img/Champions/TagWomensChampions.png';
-import nxtChampion from '../../assets/img/Champions/NXTChampion.png';
-import northAmericanChampion from '../../assets/img/Champions/NAChampion.png';
-import nxtTagChampions from '../../assets/img/Champions/NXTTagChampions.png';
-import nxtWomenChampion from '../../assets/img/Champions/NXTWomenChampion.png';
-import nxtWomenNaChampion from '../../assets/img/Champions/NAWomenChampion.png';
+import worldChampion from '../../assets/img/ImgRoster/Champions/WorldChampion.png';
+import wweChampion from '../../assets/img/ImgRoster/Champions/WWEChampion.png';
+import usChampion from '../../assets/img/ImgRoster/Champions/USChampion.png';
+import icChampion from '../../assets/img/ImgRoster/Champions/ICChampion.png';
+import wweTagChampions from '../../assets/img/ImgRoster/Champions/WWETagChampions.png';
+import worldTagChampions from '../../assets/img/ImgRoster/Champions/WorldTagChampions.png';
+import worldWomenChampion from '../../assets/img/ImgRoster/Champions/WorldWomenChampion.png';
+import wweWomenChampion from '../../assets/img/ImgRoster/Champions/WWEWomenChampion.png';
+import womenTagChampions from '../../assets/img/ImgRoster/Champions/TagWomensChampions.png';
+import nxtChampion from '../../assets/img/ImgRoster/Champions/NXTChampion.png';
+import northAmericanChampion from '../../assets/img/ImgRoster/Champions/NAChampion.png';
+import nxtTagChampions from '../../assets/img/ImgRoster/Champions/NXTTagChampions.png';
+import nxtWomenChampion from '../../assets/img/ImgRoster/Champions/NXTWomenChampion.png';
+import nxtWomenNaChampion from '../../assets/img/ImgRoster/Champions/NAWomenChampion.png';
 
-import brayWyatt from '../../assets/img/Wyatt/BrayWyatt.png';
-import uncleHowdy from '../../assets/img/Wyatt/UncleHowdy.png';
-import lukeHarper from '../../assets/img/Wyatt/LukeHarper.png';
-import erickRowan from '../../assets/img/Wyatt/Rowan.png';
-import braunStrowman from '../../assets/img/Wyatt/Strowman.png';
-import dexterLumis from '../../assets/img/Wyatt/DexterLumis.png';
-import joeGacy from '../../assets/img/Wyatt/JoeGacy.png';
-import nikkiCross from '../../assets/img/Wyatt/Nikki.png';
-import wyattSicks from '../../assets/img/Wyatt/WyattSicks.png';
+import brayWyatt from '../../assets/img/ImgRoster/Wyatt/BrayWyatt.png';
+import uncleHowdy from '../../assets/img/ImgRoster/Wyatt/UncleHowdy.png';
+import lukeHarper from '../../assets/img/ImgRoster/Wyatt/LukeHarper.png';
+import erickRowan from '../../assets/img/ImgRoster/Wyatt/Rowan.png';
+import braunStrowman from '../../assets/img/ImgRoster/Wyatt/Strowman.png';
+import dexterLumis from '../../assets/img/ImgRoster/Wyatt/DexterLumis.png';
+import joeGacy from '../../assets/img/ImgRoster/Wyatt/JoeGacy.png';
+import nikkiCross from '../../assets/img/ImgRoster/Wyatt/Nikki.png';
+import wyattSicks from '../../assets/img/ImgRoster/Wyatt/WyattSicks.png';
 
-import soloSikoa from '../../assets/img/MFT/SoloSikoa.png';
-import tamaTonga from '../../assets/img/MFT/TamaTonga.png';
-import tongaLoa from '../../assets/img/MFT/TangaLoa.png';
-import jcMateo from '../../assets/img/MFT/JCMateo.png';
-import tallaTonga from '../../assets/img/MFT/TallaTonga.png';
-import mft from '../../assets/img/MFT/MFT.png';
+import soloSikoa from '../../assets/img/ImgRoster/MFT/SoloSikoa.png';
+import tamaTonga from '../../assets/img/ImgRoster/MFT/TamaTonga.png';
+import tongaLoa from '../../assets/img/ImgRoster/MFT/TangaLoa.png';
+import jcMateo from '../../assets/img/ImgRoster/MFT/JCMateo.png';
+import tallaTonga from '../../assets/img/ImgRoster/MFT/TallaTonga.png';
+import mft from '../../assets/img/ImgRoster/MFT/MFT.png';
 
 export const rosterTabs = [
   {
@@ -206,3 +206,5 @@ export const rosterTabs = [
     ],
   },
 ];
+
+

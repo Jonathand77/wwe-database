@@ -6,3 +6,4 @@ test('renders navbar home link', () => {
   const homeLink = screen.getByRole('link', { name: /home/i });
   expect(homeLink).toBeInTheDocument();
 });
+

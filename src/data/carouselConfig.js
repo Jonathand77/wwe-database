@@ -16,3 +16,5 @@ export const defaultCarouselResponsive = {
     items: 1,
   },
 };
+
+

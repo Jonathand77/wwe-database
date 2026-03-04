@@ -62,6 +62,18 @@
   background: linear-gradient(90.21deg, #0f6001 -5.91%, #1aff09 111.58%);
 }
 
+.proj-imgbx--summerslam::before {
+  background: linear-gradient(90.21deg, #0f71a6 -5.91%, #fa7c13 111.58%);
+}
+
+.proj-imgbx--crown-jewel::before {
+  background: linear-gradient(90.21deg, #0e8903 -5.91%, #5001be 111.58%);
+}
+
+.proj-imgbx--survivor-series::before {
+  background: linear-gradient(90.21deg, #ffdd53 -5.91%, #fff700 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }

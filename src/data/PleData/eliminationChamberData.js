@@ -1,46 +1,46 @@
-import logo1 from '../../assets/img/EliminationChamber/Logos/2010.png';
-import logo2 from '../../assets/img/EliminationChamber/Logos/2011.png';
-import logo3 from '../../assets/img/EliminationChamber/Logos/2012.png';
-import logo4 from '../../assets/img/EliminationChamber/Logos/2013.png';
-import logo5 from '../../assets/img/EliminationChamber/Logos/2014.png';
-import logo6 from '../../assets/img/EliminationChamber/Logos/2015-2017.png';
-import logo7 from '../../assets/img/EliminationChamber/Logos/2018-2019.png';
-import logo8 from '../../assets/img/EliminationChamber/Logos/2020.png';
-import logo9 from '../../assets/img/EliminationChamber/Logos/2021.png';
-import logo10 from '../../assets/img/EliminationChamber/Logos/2022.png';
-import logo11 from '../../assets/img/EliminationChamber/Logos/2023.png';
-import logo12 from '../../assets/img/EliminationChamber/Logos/2024.png';
-import logo13 from '../../assets/img/EliminationChamber/Logos/2025.png';
-import logo14 from '../../assets/img/EliminationChamber/Logos/2026.png';
+import logo1 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2010.png';
+import logo2 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2011.png';
+import logo3 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2012.png';
+import logo4 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2013.png';
+import logo5 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2014.png';
+import logo6 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2015-2017.png';
+import logo7 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2018-2019.png';
+import logo8 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2020.png';
+import logo9 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2021.png';
+import logo10 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2022.png';
+import logo11 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2023.png';
+import logo12 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2024.png';
+import logo13 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2025.png';
+import logo14 from '../../assets/img/ImgEvents/EliminationChamber/Logos/2026.png';
 
-import Winner1 from '../../assets/img/EliminationChamber/Winners/ShawnMichaels.png';
-import Winner2 from '../../assets/img/EliminationChamber/Winners/TripleH.png';
-import Winner3 from '../../assets/img/EliminationChamber/Winners/TripleH2.png';
-import Winner4 from '../../assets/img/EliminationChamber/Winners/JohnCena.png';
-import Winner5 from '../../assets/img/EliminationChamber/Winners/BobbyLashley.png';
-import Winner6 from '../../assets/img/EliminationChamber/Winners/TripleH3.png';
-import Winner7 from '../../assets/img/EliminationChamber/Winners/Undertaker.png';
-import Winner8 from '../../assets/img/EliminationChamber/Winners/Edge.png';
-import Winner10 from '../../assets/img/EliminationChamber/Winners/ChrisJericho.png';
-import Winner11 from '../../assets/img/EliminationChamber/Winners/JohnCena2.png';
-import Winner13 from '../../assets/img/EliminationChamber/Winners/Edge2.png';
-import Winner14 from '../../assets/img/EliminationChamber/Winners/DanielBryan.png';
-import Winner15 from '../../assets/img/EliminationChamber/Winners/CMPunk.png';
-import Winner16 from '../../assets/img/EliminationChamber/Winners/JackSwagger.png';
-import Winner17 from '../../assets/img/EliminationChamber/Winners/RandyOrton.png';
-import Winner18 from '../../assets/img/EliminationChamber/Winners/Ryback.png';
-import Winner19 from '../../assets/img/EliminationChamber/Winners/NewDay.png';
-import Winner20 from '../../assets/img/EliminationChamber/Winners/BrayWyatt.png';
-import Winner21 from '../../assets/img/EliminationChamber/Winners/RomanReigns.png';
-import Winner22 from '../../assets/img/EliminationChamber/Winners/DanielBryan2.png';
-import Winner23 from '../../assets/img/EliminationChamber/Winners/Miz&Morrison.png';
-import Winner24 from '../../assets/img/EliminationChamber/Winners/DanielBryan3.png';
-import Winner25 from '../../assets/img/EliminationChamber/Winners/DrewMcIntyre.png';
-import Winner26 from '../../assets/img/EliminationChamber/Winners/BrockLesnar.png';
-import Winner27 from '../../assets/img/EliminationChamber/Winners/AustinTheory.png';
-import Winner28 from '../../assets/img/EliminationChamber/Winners/DrewMcIntyre2.png';
-import Winner29 from '../../assets/img/EliminationChamber/Winners/JohnCena3.png';
-import Winner30 from '../../assets/img/EliminationChamber/Winners/RandyOrton2.png';
+import Winner1 from '../../assets/img/ImgEvents/EliminationChamber/Winners/ShawnMichaels.png';
+import Winner2 from '../../assets/img/ImgEvents/EliminationChamber/Winners/TripleH.png';
+import Winner3 from '../../assets/img/ImgEvents/EliminationChamber/Winners/TripleH2.png';
+import Winner4 from '../../assets/img/ImgEvents/EliminationChamber/Winners/JohnCena.png';
+import Winner5 from '../../assets/img/ImgEvents/EliminationChamber/Winners/BobbyLashley.png';
+import Winner6 from '../../assets/img/ImgEvents/EliminationChamber/Winners/TripleH3.png';
+import Winner7 from '../../assets/img/ImgEvents/EliminationChamber/Winners/Undertaker.png';
+import Winner8 from '../../assets/img/ImgEvents/EliminationChamber/Winners/Edge.png';
+import Winner10 from '../../assets/img/ImgEvents/EliminationChamber/Winners/ChrisJericho.png';
+import Winner11 from '../../assets/img/ImgEvents/EliminationChamber/Winners/JohnCena2.png';
+import Winner13 from '../../assets/img/ImgEvents/EliminationChamber/Winners/Edge2.png';
+import Winner14 from '../../assets/img/ImgEvents/EliminationChamber/Winners/DanielBryan.png';
+import Winner15 from '../../assets/img/ImgEvents/EliminationChamber/Winners/CMPunk.png';
+import Winner16 from '../../assets/img/ImgEvents/EliminationChamber/Winners/JackSwagger.png';
+import Winner17 from '../../assets/img/ImgEvents/EliminationChamber/Winners/RandyOrton.png';
+import Winner18 from '../../assets/img/ImgEvents/EliminationChamber/Winners/Ryback.png';
+import Winner19 from '../../assets/img/ImgEvents/EliminationChamber/Winners/NewDay.png';
+import Winner20 from '../../assets/img/ImgEvents/EliminationChamber/Winners/BrayWyatt.png';
+import Winner21 from '../../assets/img/ImgEvents/EliminationChamber/Winners/RomanReigns.png';
+import Winner22 from '../../assets/img/ImgEvents/EliminationChamber/Winners/DanielBryan2.png';
+import Winner23 from '../../assets/img/ImgEvents/EliminationChamber/Winners/Miz&Morrison.png';
+import Winner24 from '../../assets/img/ImgEvents/EliminationChamber/Winners/DanielBryan3.png';
+import Winner25 from '../../assets/img/ImgEvents/EliminationChamber/Winners/DrewMcIntyre.png';
+import Winner26 from '../../assets/img/ImgEvents/EliminationChamber/Winners/BrockLesnar.png';
+import Winner27 from '../../assets/img/ImgEvents/EliminationChamber/Winners/AustinTheory.png';
+import Winner28 from '../../assets/img/ImgEvents/EliminationChamber/Winners/DrewMcIntyre2.png';
+import Winner29 from '../../assets/img/ImgEvents/EliminationChamber/Winners/JohnCena3.png';
+import Winner30 from '../../assets/img/ImgEvents/EliminationChamber/Winners/RandyOrton2.png';
 
 export const eliminationChamberDetail = {
   id: 'elimination-chamber',
@@ -314,4 +314,7 @@ export const eliminationChamberDetail = {
     },
   ],
 };
+
+
+
 

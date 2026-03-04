@@ -1,41 +1,41 @@
-import logo1 from '../../assets/img/MITB/Logos/2010-2011.png';
-import logo2 from '../../assets/img/MITB/Logos/2012.png';
-import logo3 from '../../assets/img/MITB/Logos/2013-2014.png';
-import logo4 from '../../assets/img/MITB/Logos/2015.png';
-import logo5 from '../../assets/img/MITB/Logos/2016.png';
-import logo6 from '../../assets/img/MITB/Logos/2017.png';
-import logo7 from '../../assets/img/MITB/Logos/2018-2021.png';
-import logo8 from '../../assets/img/MITB/Logos/2022.png';
-import logo9 from '../../assets/img/MITB/Logos/2023.png';
-import logo10 from '../../assets/img/MITB/Logos/2024.png';
-import logo11 from '../../assets/img/MITB/Logos/2025.png';
-import logo12 from '../../assets/img/MITB/Logos/2026.png';
+import logo1 from '../../assets/img/ImgEvents/MITB/Logos/2010-2011.png';
+import logo2 from '../../assets/img/ImgEvents/MITB/Logos/2012.png';
+import logo3 from '../../assets/img/ImgEvents/MITB/Logos/2013-2014.png';
+import logo4 from '../../assets/img/ImgEvents/MITB/Logos/2015.png';
+import logo5 from '../../assets/img/ImgEvents/MITB/Logos/2016.png';
+import logo6 from '../../assets/img/ImgEvents/MITB/Logos/2017.png';
+import logo7 from '../../assets/img/ImgEvents/MITB/Logos/2018-2021.png';
+import logo8 from '../../assets/img/ImgEvents/MITB/Logos/2022.png';
+import logo9 from '../../assets/img/ImgEvents/MITB/Logos/2023.png';
+import logo10 from '../../assets/img/ImgEvents/MITB/Logos/2024.png';
+import logo11 from '../../assets/img/ImgEvents/MITB/Logos/2025.png';
+import logo12 from '../../assets/img/ImgEvents/MITB/Logos/2026.png';
 
-import winner1 from '../../assets/img/MITB/Winners/1.png';
-import winner2 from '../../assets/img/MITB/Winners/2.png';
-import winner3 from '../../assets/img/MITB/Winners/3.png';
-import winner4 from '../../assets/img/MITB/Winners/4.png';
-import winner5 from '../../assets/img/MITB/Winners/5.png';
-import winner6 from '../../assets/img/MITB/Winners/6.png';
-import winner7 from '../../assets/img/MITB/Winners/7.png';
-import winner8 from '../../assets/img/MITB/Winners/8.png';
-import winner9 from '../../assets/img/MITB/Winners/9.png';
-import winner10 from '../../assets/img/MITB/Winners/10.png';
-import winner11 from '../../assets/img/MITB/Winners/11.png';
-import winner12 from '../../assets/img/MITB/Winners/12.png';
-import winner13 from '../../assets/img/MITB/Winners/13.png';
-import winner14 from '../../assets/img/MITB/Winners/14.png';
-import winner15 from '../../assets/img/MITB/Winners/15.png';
-import winner16 from '../../assets/img/MITB/Winners/16.png';
-import winner17 from '../../assets/img/MITB/Winners/17.png';
-import winner18 from '../../assets/img/MITB/Winners/18.png';
-import winner19 from '../../assets/img/MITB/Winners/19.png';
-import winner20 from '../../assets/img/MITB/Winners/20.png';
-import winner21 from '../../assets/img/MITB/Winners/21.png';
-import winner22 from '../../assets/img/MITB/Winners/22.png';
-import winner23 from '../../assets/img/MITB/Winners/23.png';
-import winner24 from '../../assets/img/MITB/Winners/24.png';
-import winner25 from '../../assets/img/MITB/Winners/25.png';
+import winner1 from '../../assets/img/ImgEvents/MITB/Winners/1.png';
+import winner2 from '../../assets/img/ImgEvents/MITB/Winners/2.png';
+import winner3 from '../../assets/img/ImgEvents/MITB/Winners/3.png';
+import winner4 from '../../assets/img/ImgEvents/MITB/Winners/4.png';
+import winner5 from '../../assets/img/ImgEvents/MITB/Winners/5.png';
+import winner6 from '../../assets/img/ImgEvents/MITB/Winners/6.png';
+import winner7 from '../../assets/img/ImgEvents/MITB/Winners/7.png';
+import winner8 from '../../assets/img/ImgEvents/MITB/Winners/8.png';
+import winner9 from '../../assets/img/ImgEvents/MITB/Winners/9.png';
+import winner10 from '../../assets/img/ImgEvents/MITB/Winners/10.png';
+import winner11 from '../../assets/img/ImgEvents/MITB/Winners/11.png';
+import winner12 from '../../assets/img/ImgEvents/MITB/Winners/12.png';
+import winner13 from '../../assets/img/ImgEvents/MITB/Winners/13.png';
+import winner14 from '../../assets/img/ImgEvents/MITB/Winners/14.png';
+import winner15 from '../../assets/img/ImgEvents/MITB/Winners/15.png';
+import winner16 from '../../assets/img/ImgEvents/MITB/Winners/16.png';
+import winner17 from '../../assets/img/ImgEvents/MITB/Winners/17.png';
+import winner18 from '../../assets/img/ImgEvents/MITB/Winners/18.png';
+import winner19 from '../../assets/img/ImgEvents/MITB/Winners/19.png';
+import winner20 from '../../assets/img/ImgEvents/MITB/Winners/20.png';
+import winner21 from '../../assets/img/ImgEvents/MITB/Winners/21.png';
+import winner22 from '../../assets/img/ImgEvents/MITB/Winners/22.png';
+import winner23 from '../../assets/img/ImgEvents/MITB/Winners/23.png';
+import winner24 from '../../assets/img/ImgEvents/MITB/Winners/24.png';
+import winner25 from '../../assets/img/ImgEvents/MITB/Winners/25.png';
 
 export const moneyInTheBankDetail = {
   id: 'mitb',
@@ -155,3 +155,6 @@ export const moneyInTheBankDetail = {
     },
   ],
 };
+
+
+

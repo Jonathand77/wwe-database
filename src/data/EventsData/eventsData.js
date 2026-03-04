@@ -78,3 +78,5 @@ export const events = [
     alt: 'Survivor Series event poster',
   },
 ];
+
+

@@ -1,7 +1,7 @@
-import logo1 from '../../assets/img/Clash/1.png';
-import logo2 from '../../assets/img/Clash/2.png';
-import logo3 from '../../assets/img/Clash/3.png';
-import logo4 from '../../assets/img/Clash/4.png';
+import logo1 from '../../assets/img/ImgEvents/Clash/1.png';
+import logo2 from '../../assets/img/ImgEvents/Clash/2.png';
+import logo3 from '../../assets/img/ImgEvents/Clash/3.png';
+import logo4 from '../../assets/img/ImgEvents/Clash/4.png';
 
 export const clashAtTheCastleDetail = {
   id: 'catc',
@@ -41,3 +41,6 @@ export const clashAtTheCastleDetail = {
     },
   ],
 };
+
+
+

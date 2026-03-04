@@ -2,7 +2,7 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import { PeopleFill } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import colorSharp2 from '../../assets/img/Banners/Banner2.jpg';
+import colorSharp2 from '../../assets/img/ImgBanners/Banners/Banner2.jpg';
 import { ProjectCard } from '../ProjectCard';
 import { rosterTabs } from '../../data/RosterData/rosterData';
 import './Projects.css';
@@ -66,3 +66,4 @@ export const Projects = () => {
     </section>
   );
 };
+

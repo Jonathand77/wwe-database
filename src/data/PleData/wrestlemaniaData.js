@@ -1,45 +1,45 @@
-import logo1 from '../../assets/img/Wrestlemania/Logos/1.png';
-import logo2 from '../../assets/img/Wrestlemania/Logos/2.png';
-import logo3 from '../../assets/img/Wrestlemania/Logos/3.png';
-import logo4 from '../../assets/img/Wrestlemania/Logos/4.png';
-import logo5 from '../../assets/img/Wrestlemania/Logos/5.png';
-import logo6 from '../../assets/img/Wrestlemania/Logos/6.png';
-import logo7 from '../../assets/img/Wrestlemania/Logos/7.png';
-import logo8 from '../../assets/img/Wrestlemania/Logos/8.png';
-import logo9 from '../../assets/img/Wrestlemania/Logos/9.png';
-import logo10 from '../../assets/img/Wrestlemania/Logos/10.png';
-import logo11 from '../../assets/img/Wrestlemania/Logos/11.png';
-import logo12 from '../../assets/img/Wrestlemania/Logos/12.png';
-import logo13 from '../../assets/img/Wrestlemania/Logos/13.png';
-import logo14 from '../../assets/img/Wrestlemania/Logos/14.png';
-import logo15 from '../../assets/img/Wrestlemania/Logos/15.png';
-import logo16 from '../../assets/img/Wrestlemania/Logos/16.png';
-import logo17 from '../../assets/img/Wrestlemania/Logos/17.png';
-import logo18 from '../../assets/img/Wrestlemania/Logos/18.png';
-import logo19 from '../../assets/img/Wrestlemania/Logos/19.png';
-import logo20 from '../../assets/img/Wrestlemania/Logos/20.png';
-import logo21 from '../../assets/img/Wrestlemania/Logos/21.png';
-import logo22 from '../../assets/img/Wrestlemania/Logos/22.png';
-import logo23 from '../../assets/img/Wrestlemania/Logos/23.png';
-import logo24 from '../../assets/img/Wrestlemania/Logos/24.png';
-import logo25 from '../../assets/img/Wrestlemania/Logos/25.png';
-import logo26 from '../../assets/img/Wrestlemania/Logos/26.png';
-import logo27 from '../../assets/img/Wrestlemania/Logos/27.png';
-import logo28 from '../../assets/img/Wrestlemania/Logos/28.png';
-import logo29 from '../../assets/img/Wrestlemania/Logos/29.png';
-import logo30 from '../../assets/img/Wrestlemania/Logos/30.png';
-import logo31 from '../../assets/img/Wrestlemania/Logos/31.png';
-import logo32 from '../../assets/img/Wrestlemania/Logos/32.png';
-import logo33 from '../../assets/img/Wrestlemania/Logos/33.png';
-import logo34 from '../../assets/img/Wrestlemania/Logos/34.png';
-import logo35 from '../../assets/img/Wrestlemania/Logos/35.png';
-import logo36 from '../../assets/img/Wrestlemania/Logos/36.png';
-import logo37 from '../../assets/img/Wrestlemania/Logos/37.png';
-import logo38 from '../../assets/img/Wrestlemania/Logos/38.png';
-import logo39 from '../../assets/img/Wrestlemania/Logos/39.png';
-import logo40 from '../../assets/img/Wrestlemania/Logos/40.png';
-import logo41 from '../../assets/img/Wrestlemania/Logos/41.png';
-import logo42 from '../../assets/img/Wrestlemania/Logos/42.png';
+import logo1 from '../../assets/img/ImgEvents/Wrestlemania/Logos/1.png';
+import logo2 from '../../assets/img/ImgEvents/Wrestlemania/Logos/2.png';
+import logo3 from '../../assets/img/ImgEvents/Wrestlemania/Logos/3.png';
+import logo4 from '../../assets/img/ImgEvents/Wrestlemania/Logos/4.png';
+import logo5 from '../../assets/img/ImgEvents/Wrestlemania/Logos/5.png';
+import logo6 from '../../assets/img/ImgEvents/Wrestlemania/Logos/6.png';
+import logo7 from '../../assets/img/ImgEvents/Wrestlemania/Logos/7.png';
+import logo8 from '../../assets/img/ImgEvents/Wrestlemania/Logos/8.png';
+import logo9 from '../../assets/img/ImgEvents/Wrestlemania/Logos/9.png';
+import logo10 from '../../assets/img/ImgEvents/Wrestlemania/Logos/10.png';
+import logo11 from '../../assets/img/ImgEvents/Wrestlemania/Logos/11.png';
+import logo12 from '../../assets/img/ImgEvents/Wrestlemania/Logos/12.png';
+import logo13 from '../../assets/img/ImgEvents/Wrestlemania/Logos/13.png';
+import logo14 from '../../assets/img/ImgEvents/Wrestlemania/Logos/14.png';
+import logo15 from '../../assets/img/ImgEvents/Wrestlemania/Logos/15.png';
+import logo16 from '../../assets/img/ImgEvents/Wrestlemania/Logos/16.png';
+import logo17 from '../../assets/img/ImgEvents/Wrestlemania/Logos/17.png';
+import logo18 from '../../assets/img/ImgEvents/Wrestlemania/Logos/18.png';
+import logo19 from '../../assets/img/ImgEvents/Wrestlemania/Logos/19.png';
+import logo20 from '../../assets/img/ImgEvents/Wrestlemania/Logos/20.png';
+import logo21 from '../../assets/img/ImgEvents/Wrestlemania/Logos/21.png';
+import logo22 from '../../assets/img/ImgEvents/Wrestlemania/Logos/22.png';
+import logo23 from '../../assets/img/ImgEvents/Wrestlemania/Logos/23.png';
+import logo24 from '../../assets/img/ImgEvents/Wrestlemania/Logos/24.png';
+import logo25 from '../../assets/img/ImgEvents/Wrestlemania/Logos/25.png';
+import logo26 from '../../assets/img/ImgEvents/Wrestlemania/Logos/26.png';
+import logo27 from '../../assets/img/ImgEvents/Wrestlemania/Logos/27.png';
+import logo28 from '../../assets/img/ImgEvents/Wrestlemania/Logos/28.png';
+import logo29 from '../../assets/img/ImgEvents/Wrestlemania/Logos/29.png';
+import logo30 from '../../assets/img/ImgEvents/Wrestlemania/Logos/30.png';
+import logo31 from '../../assets/img/ImgEvents/Wrestlemania/Logos/31.png';
+import logo32 from '../../assets/img/ImgEvents/Wrestlemania/Logos/32.png';
+import logo33 from '../../assets/img/ImgEvents/Wrestlemania/Logos/33.png';
+import logo34 from '../../assets/img/ImgEvents/Wrestlemania/Logos/34.png';
+import logo35 from '../../assets/img/ImgEvents/Wrestlemania/Logos/35.png';
+import logo36 from '../../assets/img/ImgEvents/Wrestlemania/Logos/36.png';
+import logo37 from '../../assets/img/ImgEvents/Wrestlemania/Logos/37.png';
+import logo38 from '../../assets/img/ImgEvents/Wrestlemania/Logos/38.png';
+import logo39 from '../../assets/img/ImgEvents/Wrestlemania/Logos/39.png';
+import logo40 from '../../assets/img/ImgEvents/Wrestlemania/Logos/40.png';
+import logo41 from '../../assets/img/ImgEvents/Wrestlemania/Logos/41.png';
+import logo42 from '../../assets/img/ImgEvents/Wrestlemania/Logos/42.png';
 
 export const wrestlemaniaDetail = {
   id: 'wrestlemania',
@@ -307,3 +307,6 @@ export const wrestlemaniaDetail = {
     },
   ],
 };
+
+
+

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import headerImg from '../../assets/img/Banners/Header.png';
+import headerImg from '../../assets/img/ImgBanners/Banners/Header.png';
 import './Banner.css';
 
 const TO_ROTATE = ['Web Developer', 'Web Designer', 'Software Developer'];
@@ -94,3 +94,4 @@ export const Banner = () => {
     </section>
   );
 };
+

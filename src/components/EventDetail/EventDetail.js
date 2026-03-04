@@ -1,7 +1,7 @@
 import { Button, Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import colorSharp2 from '../../assets/img/Banners/Banner2.jpg';
+import colorSharp2 from '../../assets/img/ImgBanners/Banners/Banner2.jpg';
 import { ProjectCard } from '../ProjectCard';
 import { getEventDetailById } from '../../data';
 import './EventDetail.css';
@@ -74,3 +74,4 @@ export const EventDetail = ({ eventId, onBack }) => {
     </section>
   );
 };
+
