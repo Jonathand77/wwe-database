@@ -1,15 +1,15 @@
-.project {
+.roster {
   padding: clamp(58px, 8vw, 86px) 0;
   position: relative;
 }
 
-.project h2 {
+.roster h2 {
   font-size: clamp(30px, 5vw, 46px);
   font-weight: 700;
   text-align: center;
 }
 
-.project p {
+.roster p {
   color: var(--color-muted);
   font-size: clamp(15px, 2vw, 18px);
   letter-spacing: 0.3px;
@@ -19,35 +19,36 @@
   width: min(100%, 940px);
 }
 
-.project .nav.nav-pills {
+.roster .nav.nav-pills {
   width: min(100%, 820px);
   margin: 0 auto;
   border-radius: 999px;
   background-color: rgb(255 255 255 / 30%);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-soft);
   overflow: hidden;
 }
 
-.project .nav.nav-pills .nav-item {
+.roster .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
 
-.project .nav.nav-pills .nav-link {
+.roster .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 14px 0;
   color: #fff;
   width: 100%;
   font-size: clamp(14px, 2vw, 16px);
-  letter-spacing: 0.5px;
-  font-weight: 500;
+  letter-spacing: 0.6px;
+  font-weight: 700;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: color 0.3s ease, border-color 0.3s ease;
   text-align: center;
   z-index: 0;
 }
 
-.project .nav.nav-pills .nav-link::before {
+.roster .nav.nav-pills .nav-link::before {
   content: '';
   position: absolute;
   width: 0;
@@ -56,30 +57,39 @@
   top: 0;
   left: 0;
   z-index: -1;
-  transition: 0.3s ease-in-out;
+  transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.roster .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
+.roster .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 0.85);
 }
 
-.nav-link#projects-tabs-tab-first {
+.roster .nav.nav-pills .nav-item:first-child .nav-link {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0 0 55px;
 }
 
-.nav-link#projects-tabs-tab-second {
+.roster .nav.nav-pills .nav-item:not(:first-child):not(:last-child) .nav-link {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.nav-link#projects-tabs-tab-third {
+.roster .nav.nav-pills .nav-item:last-child .nav-link {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
+}
+
+.roster .tab-pane {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(14px);
+}
+
+.roster .tab-pane.show {
+  transform: translateY(0);
 }
 
 .background-image-right {
@@ -93,21 +103,21 @@
 }
 
 @media (max-width: 991px) {
-  .project .nav.nav-pills {
+  .roster .nav.nav-pills {
     border-radius: 16px;
   }
 
-  .project .nav.nav-pills .nav-item {
+  .roster .nav.nav-pills .nav-item {
     width: 100%;
   }
 
-  .project .nav.nav-pills .nav-link {
+  .roster .nav.nav-pills .nav-link {
     border-radius: 0 !important;
   }
 
-  .nav-link#projects-tabs-tab-first,
-  .nav-link#projects-tabs-tab-second,
-  .nav-link#projects-tabs-tab-third {
+  .roster .nav.nav-pills .nav-item:first-child .nav-link,
+  .roster .nav.nav-pills .nav-item:not(:first-child):not(:last-child) .nav-link,
+  .roster .nav.nav-pills .nav-item:last-child .nav-link {
     border-radius: 0;
     border-left: 0;
     border-right: 0;
@@ -116,5 +126,12 @@
   .background-image-right {
     width: 100%;
     opacity: 0.18;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .roster .nav.nav-pills .nav-link::before,
+  .roster .tab-pane {
+    transition: none;
   }
 }

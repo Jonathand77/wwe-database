@@ -35,47 +35,110 @@
 }
 
 .brands-slider .brands-item {
+  position: relative;
   padding: 12px;
   border-radius: 20px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-    background:
-    linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
-    radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
+  margin: 10px;
+  overflow: hidden;
+  background: var(--color-surface);
   border: 1px solid rgba(255, 255, 255, 0.1);
   min-height: 210px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: 
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
+  text-align: center;
+  color: inherit;
+  cursor: default;
+  appearance: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   will-change: transform;
 }
 
+.brands-slider .brands-item--active {
+  cursor: pointer;
+}
+
+.brands-slider .brands-item--active:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 2px;
+}
+
+.brands-slider .brands-item--disabled {
+  opacity: 0.8;
+}
+
+.brands-slider .brands-item--disabled:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.brands-slider .brands-item--disabled:hover::before {
+  transform: scaleX(0);
+}
+
+.brands-slider .brands-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 3px;
+  border-radius: 0 0 4px 4px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
 .brands-slider .brands-item:hover {
-  transform: scale(1.04);
-  border-color: rgba(255, 255, 255, 0.18);
-  box-shadow: 
-    0 20px 40px rgba(0, 0, 0, 0.25),
-    0 0 0 1px rgba(255, 255, 255, 0.05);
-  z-index: 5;  
-  transform: translateY(-6px) scale(1.01);
+  transform: translateY(-6px) scale(1.02);
   border-color: rgba(255, 255, 255, 0.22);
-  box-shadow: 0 14px 28px rgba(10, 12, 22, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  z-index: 5;
+}
+
+.brands-slider .brands-item:hover::before {
+  transform: scaleX(1);
 }
 
 .brands-slider .brands-item img {
   width: min(58%, 170px);
   margin: 0 auto 12px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.brands-slider .brands-item:hover img {
+  transform: scale(1.08);
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
 }
 
 .brands-slider .brands-item h5 {
   font-size: 1rem;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.brands-slider .react-multiple-carousel__arrow {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(4px);
+  transition: transform 0.22s ease, border-color 0.22s ease, background-color 0.22s ease;
+}
+
+.brands-slider .react-multiple-carousel__arrow::before {
+  font-size: 16px;
+}
+
+.brands-slider .react-multiple-carousel__arrow:hover {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  transform: scale(1.08);
+}
+
+.brands-slider .react-multiple-carousel__arrow:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.7);
+  outline-offset: 2px;
 }
 
 @media (max-width: 767px) {
@@ -85,5 +148,14 @@
 
   .brands-slider .brands-item {
     min-height: 188px;
-  }   
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brands-slider .brands-item,
+  .brands-slider .brands-item img,
+  .brands-slider .brands-item::before,
+  .brands-slider .react-multiple-carousel__arrow {
+    transition: none;
+  }
 }

@@ -2,9 +2,9 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import { PeopleFill } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import colorSharp2 from '../../assets/img/ImgBanners/Banners/Banner2.jpg';
+import colorSharp2 from '../../assets/img/banners/Banner2.jpg';
 import { ProjectCard } from '../ProjectCard';
-import { rosterTabs } from '../../data/RosterData/rosterData';
+import { rosterTabs } from '../../data';
 import './Projects.css';
 
 export const Projects = () => {
@@ -17,11 +17,11 @@ export const Projects = () => {
   );
 
   return (
-    <section className="project" id="projects">
+    <section className="roster" id="projects">
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <h2 className="section-title">

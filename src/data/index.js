@@ -1,15 +1,6 @@
-export * from './BrandData/brandsData';
-export * from './carouselConfig';
-export * from './EventsData/eventDetailsData';
-export * from './EventsData/eventsData';
-export * from './RosterData/rosterData';
-export * from './PleData/royalRumbleData';
-export * from './PleData/eliminationChamberData';
-export * from './PleData/wrestlemaniaData';
-export * from './PleData/clashData';
-export * from './PleData/moneyInTheBank';
-export * from './PleData/summerSlamData';
-export * from './PleData/crownJewelData';
-export * from './PleData/survivorSeriesData';
-
-
+export { brands } from './BrandData/brandsData';
+export { getBrandDetailById, hasBrandDetail } from './BrandData/brandDetailsData';
+export { defaultCarouselResponsive } from './carouselConfig';
+export { getEventDetailById, hasEventDetail } from './EventsData/eventDetailsData';
+export { events } from './EventsData/eventsData';
+export { rosterTabs } from './RosterData/rosterData';

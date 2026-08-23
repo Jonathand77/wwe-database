@@ -1,7 +1,7 @@
 .banner {
   margin-top: 0;
   padding: clamp(150px, 18vw, 260px) 0 clamp(72px, 10vw, 110px);
-  background-image: url('../../assets/img/ImgBanners/Banners/Banner2.jpg');
+  background-image: url('../../assets/img/banners/Banner2.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
   content: '';
   position: absolute;
   inset: 0;
-    background:
+  background:
     linear-gradient(90deg, rgba(8, 10, 16, 0.38) 6%, rgba(8, 10, 16, 0.22) 48%, rgba(8, 10, 16, 0.06) 100%),
     radial-gradient(circle at 70% 10%, rgba(74, 47, 189, 0.18), transparent 52%);
   pointer-events: none;
@@ -25,12 +25,29 @@
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 9px 14px;
-    background: linear-gradient(90.21deg, rgba(182, 33, 47, 0.45) -5.91%, rgba(74, 47, 189, 0.45) 111.58%);
+  background: linear-gradient(
+    90deg,
+    rgba(182, 33, 47, 0.5) 0%,
+    rgba(74, 47, 189, 0.5) 50%,
+    rgba(182, 33, 47, 0.5) 100%
+  );
+  background-size: 200% auto;
+  animation: taglineShimmer 6s linear infinite;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: clamp(14px, 2vw, 18px);
   margin-bottom: 18px;
   display: inline-block;
   border-radius: 999px;
+}
+
+@keyframes taglineShimmer {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
 }
 
 .banner h1 {
@@ -42,6 +59,30 @@
   line-height: 1.06;
   margin-bottom: 20px;
   display: block;
+  text-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+}
+
+.txt-rotate {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid rgba(255, 255, 255, 0.75);
+  animation: blink 0.85s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: rgba(255, 255, 255, 0.75);
+  }
+
+  50% {
+    border-color: transparent;
+  }
 }
 
 .banner p {
@@ -69,11 +110,26 @@
   border-radius: 999px;
   padding: 12px 20px;
   width: fit-content;
-    backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(1.5px);
+  overflow: hidden;
   transition: transform 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
 }
 
+.banner-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+}
+
+.banner-cta:hover::before {
+  transform: translateX(120%);
+}
+
 .banner-cta svg {
+  position: relative;
   font-size: 24px;
   transition: 0.3s ease-in-out;
 }
@@ -88,31 +144,57 @@
   transform: translateX(5px);
 }
 
+.banner-cta:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.7);
+  outline-offset: 4px;
+}
+
+.banner-photo {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-photo::before {
+  content: '';
+  position: absolute;
+  inset: 8%;
+  z-index: 0;
+  background: radial-gradient(circle, rgba(182, 33, 47, 0.35), rgba(74, 47, 189, 0.28) 55%, transparent 72%);
+  filter: blur(40px);
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(0.94);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
 .banner img {
   position: relative;
   z-index: 1;
   max-width: 95%;
   margin-inline: auto;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.35));
-  animation: updown 3s linear infinite;
+  animation: updown 3.4s ease-in-out infinite;
 }
 
 @keyframes updown {
-  0% {
-    transform: translateY(-20px);
+  0%,
+  100% {
+    transform: translateY(-16px);
   }
 
   50% {
-    transform: translateY(20px);
+    transform: translateY(16px);
   }
-
-  100% {
-    transform: translateY(-20px);
-  }
-}
-
-.txt-rotate > .wrap {
-  border-right: 0.08em solid rgba(255, 255, 255, 0.6);
 }
 
 @media (max-width: 991px) {
@@ -141,5 +223,18 @@
 
   .banner .tagline {
     border-radius: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner .tagline,
+  .txt-rotate > .wrap,
+  .banner-photo::before,
+  .banner img {
+    animation: none;
+  }
+
+  .banner-cta::before {
+    display: none;
   }
 }

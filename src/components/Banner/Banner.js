@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-import headerImg from '../../assets/img/ImgBanners/Banners/Header.png';
+import headerImg from '../../assets/img/banners/Header.png';
 import './Banner.css';
 
 const TO_ROTATE = ['Web Developer', 'Web Designer', 'Software Developer'];
@@ -53,17 +53,13 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <span className="tagline">Welcome to WWE DataBase</span>
                   <h1>
                     {`Hi! I'm Jonathan`}{' '}
-                    <span
-                      className="txt-rotate"
-                      data-period="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "Software Developer" ]'
-                    >
+                    <span className="txt-rotate">
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
@@ -73,7 +69,10 @@ export const Banner = () => {
                     platform. The goal is to demonstrate skills in web design, front-end development,
                     and user experience optimization.
                   </p>
-                  <button className="banner-cta" onClick={() => console.log('connect')}>
+                  <button
+                    className="banner-cta"
+                    onClick={() => document.getElementById('connect')?.scrollIntoView({ behavior: 'smooth' })}
+                  >
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>
@@ -81,10 +80,10 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) => (
-                <div className={isVisible ? 'animate__animated animate__zoomIn' : ''}>
-                  <img src={headerImg} alt="Header Img" />
+                <div className={`banner-photo ${isVisible ? 'animate__animated animate__zoomIn' : ''}`}>
+                  <img src={headerImg} alt="Rey Mysterio leaping in mid-air" />
                 </div>
               )}
             </TrackVisibility>

@@ -1,14 +1,14 @@
-import logo1 from "../../assets/img/CrownJewel/Logos/2019-2020.png";
-import logo2 from "../../assets/img/CrownJewel/Logos/2021-2024.png";
-import logo3 from "../../assets/img/CrownJewel/Logos/2025.png";
+import logo1 from "../../assets/img/ple/crown-jewel/logos/2019-2020.png";
+import logo2 from "../../assets/img/ple/crown-jewel/logos/2021-2024.png";
+import logo3 from "../../assets/img/ple/crown-jewel/logos/2025.png";
 
-import winner1 from "../../assets/img/CrownJewel/Winners/GRRTitle.png";
-import winner2 from "../../assets/img/CrownJewel/Winners/GRRTrophy.png";
-import winner3 from "../../assets/img/CrownJewel/Winners/TagTeamWorldCup.png";
-import winner5 from "../../assets/img/CrownJewel/Winners/TuwaiqMountainTrophy.png";
-import winner4 from "../../assets/img/CrownJewel/Winners/WorldCup.png";
-import winner6 from "../../assets/img/CrownJewel/Winners/CodyRhodes.png";
-import winner7 from "../../assets/img/CrownJewel/Winners/SethRollins.png";
+import winner1 from "../../assets/img/ple/crown-jewel/winners/GRRTitle.png";
+import winner2 from "../../assets/img/ple/crown-jewel/winners/GRRTrophy.png";
+import winner3 from "../../assets/img/ple/crown-jewel/winners/TagTeamWorldCup.png";
+import winner5 from "../../assets/img/ple/crown-jewel/winners/TuwaiqMountainTrophy.png";
+import winner4 from "../../assets/img/ple/crown-jewel/winners/WorldCup.png";
+import winner6 from "../../assets/img/ple/crown-jewel/winners/CodyRhodes.png";
+import winner7 from "../../assets/img/ple/crown-jewel/winners/SethRollins.png";
 
 export const crownJewelDetail = {
   id: "crown-jewel",
@@ -29,7 +29,7 @@ export const crownJewelDetail = {
         {
           id: "cj-winner-GRRTrophy",
           title: "Greatest Royal Rumble Trophy",
-          description: "Braun Strowman",
+          description: "Braun Strowman 2018",
           imgUrl: winner2,
         },
         {
@@ -78,19 +78,16 @@ export const crownJewelDetail = {
         {
           id: "crown-jewel-logo-2021-2024",
           title: "Crown Jewel",
-          description: "2021-2024",
+          description: "2021 - 2024",
           imgUrl: logo2,
         },
         {
           id: "crown-jewel-logo-2025",
           title: "Crown Jewel",
-          description: "2025",
+          description: "Perth, Australia 2025",
           imgUrl: logo3,
         },
       ],
     },
   ],
 };
-
-
-
