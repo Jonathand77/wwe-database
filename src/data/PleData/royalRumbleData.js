@@ -301,73 +301,92 @@ export const royalRumbleEventDetails = {
           {
             id: "logo2",
             title: "Royal Rumble",
-            description: "1989",
+            description: "No Partners...30 Opponents 1989",
             imgUrl: logo2,
           },
           {
             id: "logo3",
             title: "Royal Rumble",
-            description: "1990 - 1994",
+            description: "Every Man for Himself! 1990",
+            imgUrl: logo3,
+          },
+          {
+            id: "logo3",
+            title: "Royal Rumble",
+            description:
+              "Friend vs. Friend, Foe vs. Foe. It's Every Man for Himself! 1991",
+            imgUrl: logo3,
+          },
+          {
+            id: "logo3",
+            title: "Royal Rumble",
+            description: "1992 - 1994",
             imgUrl: logo3,
           },
           {
             id: "logo4",
             title: "Royal Rumble",
-            description: "1995",
+            description: "30 Men, 1 Winner, Something's Gotta Give! 1995",
             imgUrl: logo4,
           },
           {
             id: "logo5",
             title: "Royal Rumble",
-            description: "1996 - 1997",
+            description: "You've been WARNED! 1996",
+            imgUrl: logo5,
+          },
+          {
+            id: "logo5",
+            title: "Royal Rumble",
+            description: "No More Mr. Nice Guy! 1997",
             imgUrl: logo5,
           },
           {
             id: "logo6",
             title: "Royal Rumble",
-            description: "1998",
+            description: "	Pain! Just a four letter word. 1998",
             imgUrl: logo6,
           },
           {
             id: "logo7",
             title: "Royal Rumble",
-            description: "1999",
+            description: "	No Chance in Hell 1999",
             imgUrl: logo7,
           },
           {
             id: "logo8",
             title: "Royal Rumble",
-            description: "2000",
+            description: "The Road to WrestleMania Begins 2000",
             imgUrl: logo8,
           },
           {
             id: "logo9",
             title: "Royal Rumble",
-            description: "2001",
+            description: "30 men. Every man for himself. One victor. 2001",
             imgUrl: logo9,
           },
           {
             id: "logo10",
             title: "Royal Rumble",
-            description: "2002",
+            description: "30 Men, One Match, One W1nner 2002",
             imgUrl: logo10,
           },
           {
             id: "logo11",
             title: "Royal Rumble",
-            description: "2003",
+            description: "'Falling Apart' de Trust Company 2003",
             imgUrl: logo11,
           },
           {
             id: "logo12",
             title: "Royal Rumble",
-            description: "2004",
+            description: "'Nothing Left To Lose' de Puddle of Mudd 2004",
             imgUrl: logo12,
           },
           {
             id: "logo13",
             title: "Royal Rumble",
-            description: "2005",
+            description: "All the rumbling, minus the dancing and singing 2005",
             imgUrl: logo13,
           },
           {
@@ -397,13 +416,13 @@ export const royalRumbleEventDetails = {
           {
             id: "logo18",
             title: "Royal Rumble",
-            description: "2010",
+            description: "I Am The One 2010",
             imgUrl: logo18,
           },
           {
             id: "logo19",
             title: "Royal Rumble",
-            description: "2011",
+            description: "The Biggest Royal Rumble in History 2011",
             imgUrl: logo19,
           },
           {
@@ -415,7 +434,13 @@ export const royalRumbleEventDetails = {
           {
             id: "logo21",
             title: "Royal Rumble",
-            description: "2013 - 2014",
+            description: "Finally... 2013",
+            imgUrl: logo21,
+          },
+          {
+            id: "logo21",
+            title: "Royal Rumble",
+            description: "2014",
             imgUrl: logo21,
           },
           {
@@ -433,7 +458,13 @@ export const royalRumbleEventDetails = {
           {
             id: "logo24",
             title: "Royal Rumble",
-            description: "2017 - 2018",
+            description: "Remember the Rumble 2017",
+            imgUrl: logo24,
+          },
+          {
+            id: "logo24",
+            title: "Royal Rumble",
+            description: "2018",
             imgUrl: logo24,
           },
           {

@@ -41,7 +41,7 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-main",
           title: "SummerSlam",
-          description: "1988",
+          description: "Where the Mega Powers Meet the Mega Bucks 1988",
           imgUrl: logo1,
         },
         {
@@ -59,7 +59,7 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-91",
           title: "SummerSlam",
-          description: "1991",
+          description: "A Match Made in Heaven, A Match Made in Hell 1991",
           imgUrl: logo4,
         },
         {
@@ -71,7 +71,7 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-93",
           title: "SummerSlam",
-          description: "Fat Chance! 1993",
+          description: "Fat Chance! Somebody Has to Stop Him! 1993",
           imgUrl: logo6,
         },
         {
@@ -107,7 +107,7 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-99",
           title: "SummerSlam",
-          description: "1999",
+          description: "An Out of Body Experience 1999",
           imgUrl: logo11,
         },
         {
@@ -119,7 +119,7 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-2001",
           title: "SummerSlam",
-          description: "2001",
+          description: "Finally. 2001",
           imgUrl: logo13,
         },
         {
@@ -143,13 +143,13 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-2005",
           title: "SummerSlam",
-          description: "2005",
+          description: "Hogan vs. Michaels: For the First Time Ever. 2005",
           imgUrl: logo17,
         },
         {
           id: "summerslam-logo-2006",
           title: "SummerSlam",
-          description: "2006",
+          description: "The Biggest Party of the Summer 2006",
           imgUrl: logo18,
         },
         {
@@ -167,19 +167,25 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-2009",
           title: "SummerSlam",
-          description: "2009",
+          description: "The Biggest Event of the Summer 2009",
           imgUrl: logo20,
         },
         {
           id: "summerslam-logo-2010-2011",
           title: "SummerSlam",
-          description: "2010 - 2011",
+          description: "2010",
+          imgUrl: logo21,
+        },
+        {
+          id: "summerslam-logo-2010-2011",
+          title: "SummerSlam",
+          description: "The Biggest Party of the Summer 2011",
           imgUrl: logo21,
         },
         {
           id: "summerslam-logo-2012",
           title: "SummerSlam",
-          description: "25th Anniversary 2012",
+          description: "The Perfect Storm 2012",
           imgUrl: logo22,
         },
         {
@@ -191,7 +197,19 @@ export const summerSlamDetail = {
         {
           id: "summerslam-logo-2014-2021",
           title: "SummerSlam",
-          description: "2014 - 2021",
+          description: "2014 - 2019",
+          imgUrl: logo24,
+        },
+        {
+          id: "summerslam-logo-2014-2021",
+          title: "SummerSlam",
+          description: "You'll Never See It Coming 2020",
+          imgUrl: logo24,
+        },
+        {
+          id: "summerslam-logo-2014-2021",
+          title: "SummerSlam",
+          description: "Your Summer Vacation Destination 2021",
           imgUrl: logo24,
         },
         {

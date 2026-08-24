@@ -237,13 +237,32 @@ export const moneyInTheBankDetail = {
         {
           id: "mitb-logo-2017",
           title: "Money In The Bank",
-          description: "2017",
+          description: "A golden opportunity awaits 2017",
           imgUrl: logo6,
         },
         {
           id: "mitb-logo-2018-2021",
           title: "Money In The Bank",
-          description: "2018 - 2021",
+          description:
+            "Irresistible force meets the meanest woman on the planet 2018",
+          imgUrl: logo7,
+        },
+        {
+          id: "mitb-logo-2018-2021",
+          title: "Money In The Bank",
+          description: "2019",
+          imgUrl: logo7,
+        },
+        {
+          id: "mitb-logo-2018-2021",
+          title: "Money In The Bank",
+          description: "Climb the corporate ladder The risk worth reward 2020",
+          imgUrl: logo7,
+        },
+        {
+          id: "mitb-logo-2018-2021",
+          title: "Money In The Bank",
+          description: "2021",
           imgUrl: logo7,
         },
         {
@@ -267,13 +286,13 @@ export const moneyInTheBankDetail = {
         {
           id: "mitb-logo-2025",
           title: "Money In The Bank",
-          description: "Los Angeles 2025",
+          description: "The Last Time is Now 2025",
           imgUrl: logo11,
         },
         {
           id: "mitb-logo-2026",
           title: "Money In The Bank",
-          description: "New Orleans2026",
+          description: "New Orleans 2026",
           imgUrl: logo12,
         },
       ],
