@@ -6,6 +6,8 @@ import wweTagChampions from "../../assets/img/roster/champions/WWETagChampions.p
 import worldTagChampions from "../../assets/img/roster/champions/WorldTagChampions.png";
 import worldWomenChampion from "../../assets/img/roster/champions/WorldWomenChampion.png";
 import wweWomenChampion from "../../assets/img/roster/champions/WWEWomenChampion.png";
+import usWomenChampion from "../../assets/img/roster/champions/USWomenChampion.png";
+import icWomenChampion from "../../assets/img/roster/champions/ICWomenChampion.png";
 import womenTagChampions from "../../assets/img/roster/champions/TagWomensChampions.png";
 import nxtChampion from "../../assets/img/roster/champions/NXTChampion.png";
 import northAmericanChampion from "../../assets/img/roster/champions/NAChampion.png";
@@ -17,14 +19,17 @@ import brayWyatt from "../../assets/img/roster/wyatt/BrayWyatt.png";
 import uncleHowdy from "../../assets/img/roster/wyatt/UncleHowdy.png";
 import lukeHarper from "../../assets/img/roster/wyatt/LukeHarper.png";
 import erickRowan from "../../assets/img/roster/wyatt/Rowan.png";
+import Rowan from "../../assets/img/roster/wyatt/RowanSheep1.png";
 import braunStrowman from "../../assets/img/roster/wyatt/Strowman.png";
 import dexterLumis from "../../assets/img/roster/wyatt/DexterLumis.png";
 import joeGacy from "../../assets/img/roster/wyatt/JoeGacy.png";
 import nikkiCross from "../../assets/img/roster/wyatt/Nikki.png";
+import fiend from "../../assets/img/roster/wyatt/TheFiend.png";
+import wyattfamily from "../../assets/img/roster/wyatt/WyattFamily.png";
 import wyattSicks from "../../assets/img/roster/wyatt/WyattSicks.png";
 
 import soloSikoa from "../../assets/img/roster/mft/SoloSikoa.png";
-import tamaTonga from "../../assets/img/roster/mft/TamaTonga.png";
+import tamaTonga from "../../assets/img/roster/mft/TamaTonga1.png";
 import tongaLoa from "../../assets/img/roster/mft/TangaLoa.png";
 import jcMateo from "../../assets/img/roster/mft/JCMateo.png";
 import tallaTonga from "../../assets/img/roster/mft/TallaTonga.png";
@@ -37,26 +42,26 @@ export const rosterTabs = [
     variant: "champions",
     items: [
       {
-        id: "cm-punk",
-        title: "CM Punk",
+        id: "roman-reigns",
+        title: "Roman Reigns",
         description: "World Champion",
         imgUrl: worldChampion,
       },
       {
-        id: "drew-mcintyre",
-        title: "Drew McIntyre",
+        id: "cm-punk",
+        title: "CM Punk",
         description: "WWE Champion",
         imgUrl: wweChampion,
       },
       {
-        id: "carmelo-hayes",
-        title: "Carmelo Hayes",
+        id: "baron-corbin",
+        title: "Baron Corbin",
         description: "United States Champion",
         imgUrl: usChampion,
       },
       {
-        id: "dominik-mysterio",
-        title: "´Dirty´ Dominik Mysterio",
+        id: "chad-gable",
+        title: "Chad Gable",
         description: "Intercontinental Champion",
         imgUrl: icChampion,
       },
@@ -67,56 +72,68 @@ export const rosterTabs = [
         imgUrl: wweTagChampions,
       },
       {
-        id: "usos",
-        title: "The Usos",
+        id: "vision",
+        title: "The Vision",
         description: "World Tag Team Champions",
         imgUrl: worldTagChampions,
       },
       {
-        id: "stephanie-vaquer",
-        title: "Stephanie Vaquer",
+        id: "liv-morgan",
+        title: "Liv Morgan",
         description: "World Women´s Champion",
         imgUrl: worldWomenChampion,
       },
       {
-        id: "jade-cargill",
-        title: "Jade Cargill",
-        description: "WWE Women´s Champion",
+        id: "chelsea-green",
+        title: "Chelsea Green",
+        description: "Interim WWE Women´s Champion",
         imgUrl: wweWomenChampion,
-      },
-      {
-        id: "rhio",
-        title: "Rhio",
-        description: "World Tag Team Women´s Champions",
-        imgUrl: womenTagChampions,
-      },
-      {
-        id: "joe-hendry",
-        title: "Joe Hendry",
-        description: "NXT Champion",
-        imgUrl: nxtChampion,
-      },
-      {
-        id: "ethan-page",
-        title: "Ethan Page",
-        description: "NXT North American Champion",
-        imgUrl: northAmericanChampion,
-      },
-      {
-        id: "darkstate",
-        title: "DarkState",
-        description: "NXT Tag Team Champions",
-        imgUrl: nxtTagChampions,
       },
       {
         id: "jacy-jayne",
         title: "Jacy Jayne",
+        description: "United States Women´s Champion",
+        imgUrl: usWomenChampion,
+      },
+      {
+        id: "raquel-rodriguez",
+        title: "Raquel Rodriguez",
+        description: "Intercontinental Women´s Champion",
+        imgUrl: icWomenChampion,
+      },
+      {
+        id: "fatal-influence",
+        title: "Fatal Influence",
+        description: "World Tag Team Women´s Champions",
+        imgUrl: womenTagChampions,
+      },
+      {
+        id: "tony-d'angelo",
+        title: "Tony D'Angelo",
+        description: "NXT Champion",
+        imgUrl: nxtChampion,
+      },
+      {
+        id: "myles-borne",
+        title: "Myles Borne",
+        description: "NXT North American Champion",
+        imgUrl: northAmericanChampion,
+      },
+      {
+        id: "borne-heights",
+        title: "Myles Borne & Tavion Heights",
+        description: "NXT Tag Team Champions",
+        imgUrl: nxtTagChampions,
+      },
+      {
+        id: "kendal-grey",
+        title: "Kendal Grey",
         description: "NXT Women´s Champion",
         imgUrl: nxtWomenChampion,
       },
       {
-        id: "izzi-dame",
-        title: "Izzi Dame",
+        id: "Zaria",
+        title: "Zaria",
         description: "NXT Women´s North American Champion",
         imgUrl: nxtWomenNaChampion,
       },
@@ -148,14 +165,20 @@ export const rosterTabs = [
       {
         id: "erick-rowan",
         title: "Erick Rowan",
-        description: "Ramblin´ Rabbit",
-        imgUrl: erickRowan,
+        description: "Wyatt Son Sheep",
+        imgUrl: Rowan,
       },
       {
         id: "braun-strowman",
         title: "Braun Strowman",
         description: "The Black Sheep",
         imgUrl: braunStrowman,
+      },
+      {
+        id: "erick-rowan",
+        title: "Erick Rowan",
+        description: "Ramblin´ Rabbit",
+        imgUrl: erickRowan,
       },
       {
         id: "dexter-lumis",
@@ -174,6 +197,18 @@ export const rosterTabs = [
         title: "Nikki Cross",
         description: "Abby The Witch",
         imgUrl: nikkiCross,
+      },
+      {
+        id: "fiend",
+        title: "'The Fiend'",
+        description: "Bray Wyatt",
+        imgUrl: fiend,
+      },
+      {
+        id: "wyatt-family",
+        title: "Wyatt Family",
+        description: "Faction",
+        imgUrl: wyattfamily,
       },
       {
         id: "wyatt-sicks",
@@ -202,7 +237,7 @@ export const rosterTabs = [
       },
       {
         id: "tonga-loa",
-        title: "Tanga Loa",
+        title: "Tonga Loa",
         description: "MFT Member",
         imgUrl: tongaLoa,
       },
@@ -218,11 +253,7 @@ export const rosterTabs = [
         description: "MFT Enforcer",
         imgUrl: tallaTonga,
       },
-      { id: "mft", 
-        title: "MFT", 
-        description: "My Family Tree", 
-        imgUrl: mft 
-      },
+      { id: "mft", title: "MFT", description: "My Family Tree", imgUrl: mft },
     ],
   },
 ];

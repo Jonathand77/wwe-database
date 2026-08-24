@@ -1,130 +1,182 @@
-# WWE- DATABASE
+# **🤼 WWE Database**
 
-**Project Description:**
-This project consisted of creating this WWE page as a web development practice project, where advanced HTML, CSS, JavaScript, and React techniques are applied with Bootstrap to create a functional and visually stunning platform. The goal is to demonstrate skills in web design, front-end development, and user experience optimization.
+---
 
-**Technologies Used:** 
+## 🛠️ Stack tecnológico y Arquitectura
 
-- **Programming languages:** HTML<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> CSS<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>  
- JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-- **Tools and frameworks:** React <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> BootStrap <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)
+![React Bootstrap](https://img.shields.io/badge/React--Bootstrap-UI%20Components-7952B3?logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+![Create React App](https://img.shields.io/badge/Create%20React%20App-Tooling-09D3AC?logo=createreactapp&logoColor=white)
+![Architecture](https://img.shields.io/badge/Architecture-Component%20%2F%20Data%20Driven-blue)
+![GitHub repo size](https://img.shields.io/github/repo-size/Jonathand77/wwe-database)
+![GitHub last commit](https://img.shields.io/github/last-commit/Jonathand77/wwe-database)
+![Languages](https://img.shields.io/github/languages/count/Jonathand77/wwe-database)
 
-## Getting Started 🚀
+## 👤 Autor
 
-_These instructions will get you a working copy of the project on your local machine for development and testing purposes._
+| 👨‍💻 Nombre | 📧 Correo | 🏫 Link directo al repositorio | 🐙 Usuario GitHub |
+|---|---|---|---|
+| **Jonathan David Fernandez Vargas** | jonathanfdez62@gmail.com | [LinkRepositorio](https://github.com/Jonathand77/wwe-database) | [jonathand77](https://github.com/jonathand77) |
 
-See **Deployment** to learn how to deploy the project.
+**Práctica de desarrollo web que recrea una base de datos visual de WWE: marcas, campeones, eventos premium y su historial de ediciones/ganadores.**
 
-### Prerequisites 📋
+---
 
-_What things do you need to install the software and how to install them_
+## 1. 🔍 Introducción
+
+Este proyecto es una aplicación **React** de página única (SPA) que funciona como una base de datos visual del universo WWE. Permite navegar por las tres marcas (**RAW**, **SmackDown** y **NXT**), consultar sus campeones actuales y logos, explorar el roster general (Champions, Wyatts, MFT) y revisar los **Premium Live Events** (Royal Rumble, WrestleMania, Money in the Bank, Clash at the Castle, SummerSlam, Crown Jewel, Survivor Series y Elimination Chamber) con sus ganadores históricos y ediciones de logo.
+
+Toda la navegación ocurre sin recargar la página: al seleccionar una marca o un evento se reemplaza la vista principal por una vista de detalle con pestañas (`DetailView`), y el botón "Back" o los enlaces del `NavBar` regresan a la vista general con scroll suave a la sección correspondiente.
+
+## 2. ⚙️ Requisitos Previos
+
+Antes de comenzar, asegúrate de contar con:
+- Git
+- [Node.js](https://nodejs.org/) v18 o superior (incluye npm)
+- Un navegador web (Chrome, Edge, Firefox, etc.)
+- Un editor de código como Visual Studio Code (opcional)
+
+No se requiere base de datos ni backend: todo el contenido vive como datos estáticos en `src/data/`.
+
+## 📦 Estructura del Proyecto
 
 ```
-- Make sure you have Git installed on your system. You can download it from git-scm.com and follow the installation instructions.
-- GitHub.
-- An IDE such as VisualStudio Code.
-- A browser such as Chrome.
+wwe-database/
+├── RAÍZ
+│   ├── .gitignore
+│   ├── .git/
+│   ├── package.json
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   ├── favicon.ico
+│   │   └── LogoWWE-Database.png
+│   └── src/
+│       ├── index.js
+│       ├── App.js
+│       ├── styles/
+│       │   ├── global.css
+│       │   └── common.css
+│       ├── assets/
+│       │   ├── font/            # Tipografía CentraNo2 (Bold / Book / Medium)
+│       │   └── img/
+│       │       ├── banners/      # Imágenes del Banner, ToCome y fondos
+│       │       ├── brands/       # Logos actuales de RAW, SmackDown y NXT
+│       │       ├── events/       # Carátulas del carrusel de eventos
+│       │       ├── icons/        # Iconos de redes sociales del Footer
+│       │       ├── roster/       # Fotos de campeones, Wyatts y MFT
+│       │       └── ple/          # Logos y ganadores por evento (royal-rumble, wrestlemania, mitb, ...)
+│       ├── components/
+│       │   ├── NavBar/           # Navegación y scroll-spy
+│       │   ├── Banner/           # Sección de bienvenida
+│       │   ├── Brands/           # Carrusel de marcas (RAW / SmackDown / NXT)
+│       │   ├── Events/           # Carrusel de Premium Live Events
+│       │   ├── Projects/         # Roster general con tabs (Champions / Wyatts / MFT)
+│       │   ├── BrandDetail/      # Vista de detalle de una marca
+│       │   ├── EventDetail/      # Vista de detalle de un evento
+│       │   ├── DetailView/       # Layout de tabs compartido por Brand/Event Detail
+│       │   ├── ProjectCard/      # Card reutilizable (imagen + nombre + descripción)
+│       │   ├── ToCome/           # Sección "próximamente"
+│       │   └── Footer/           # Pie de página y contacto
+│       └── data/
+│           ├── BrandData/        # brandsData, brandDetailsData, rawData, smackdownData, nxtData
+│           ├── EventsData/       # eventsData, eventDetailsData
+│           ├── PleData/          # Un archivo por evento (royalRumbleData, wrestlemaniaData, ...)
+│           ├── RosterData/       # rosterData (Champions / Wyatts / MFT)
+│           └── carouselConfig.js # Breakpoints responsive de los carruseles
 ```
 
-### Installation 🔧
+---
 
-_A series of step-by-step examples that tells you what you need to run to get a development environment up and running_
+## 3. 🖥️ Guía Paso a Paso para Levantar el Proyecto
 
-_Clone repository_
+### 3.1 Clonar el repositorio
 
-```
-git clone https://github.com/user/repository-name.git
-```
-
-_Verify cloning_
-
-```
-cd repository-name
+```bash
+git clone https://github.com/Jonathand77/wwe-database.git
+cd wwe-database
 ```
 
-# Getting Started with Create React App
+### 3.2 Instalar dependencias
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```bash
+npm install
+```
 
-## Available Scripts
+### 3.3 Levantar el entorno de desarrollo
 
-In the project directory, you can run:
+```bash
+npm start
+```
 
-### `npm start`
+**Ya puedes abrir en el navegador y utilizar la aplicación:**
+`http://localhost:3000`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La página se recarga automáticamente con cada cambio y verás los errores de lint en la consola.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3.4 Generar el build de producción (opcional)
 
-### `npm test`
+```bash
+npm run build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Genera una versión optimizada y minificada en la carpeta `build/`, lista para desplegar en cualquier hosting estático.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 4. 🗂️ Modelo de Datos y Buenas Prácticas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4.1 Forma de un ítem de datos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Todo el contenido visual (campeones, logos, ganadores) sigue la misma forma, consumida por `ProjectCard`:
 
-### `npm run eject`
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `id` | string | Identificador único del ítem |
+| `title` | string | Nombre del luchador, equipo o edición |
+| `description` | string | Título que ostenta, año o contexto |
+| `imgUrl` | string | Imagen importada desde `assets/img/` |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4.2 Forma de una vista de detalle
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`BrandDetail` y `EventDetail` reutilizan `DetailView`, que renderiza pestañas a partir de un objeto con `id`, `title`, `subtitle` y un arreglo `tabs` (cada tab con `id`, `label`, `variant` e `items`). El `variant` controla el gradiente de fondo de las cards (por marca, por evento o el genérico `champions`).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4.3 Buenas prácticas y arquitectura
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Separación por dominio de datos**: cada marca/evento tiene su propio archivo en `BrandData/` o `PleData/`, y un archivo agregador (`brandDetailsData.js`, `eventDetailsData.js`) los combina en un único mapa consultado por `id`.
+- **Componentes de presentación reutilizables**: `ProjectCard` y `DetailView` son agnósticos del contenido; solo reciben `items`/`tabs` y renderizan.
+- **Accesibilidad**: `alt` descriptivo en imágenes, `aria-label` en botones de carrusel y navegación, estados `disabled` para marcas/eventos sin detalle cargado.
+- **Sin animaciones de reingreso**: las secciones se renderizan directamente al montar, evitando destellos al navegar entre la vista principal y las vistas de detalle.
 
-## Learn More
+## 5. 📜 Scripts disponibles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+En el directorio del proyecto puedes ejecutar:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Script | Descripción |
+|---|---|
+| `npm start` | Corre la app en modo desarrollo en `http://localhost:3000` |
+| `npm test` | Lanza el test runner en modo interactivo (Jest + Testing Library) |
+| `npm run build` | Genera el build de producción minificado en `build/` |
+| `npm run eject` | Expone la configuración de Create React App (operación irreversible) |
 
-### Code Splitting
+## 6. 🧩 Componentes clave
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **NavBar**: navegación fija con scroll-spy entre secciones (`home`, `brands`, `events`, `projects`, `to-come`, `connect`).
+- **Banner**: presentación inicial con efecto de texto rotativo.
+- **Brands / Events**: carruseles (`react-multi-carousel`) que abren `BrandDetail` / `EventDetail` al hacer clic.
+- **Projects**: roster general con pestañas Champions / Wyatts / MFT.
+- **BrandDetail / EventDetail**: obtienen su contenido por `id` desde `data/` y lo delegan a `DetailView`.
+- **DetailView**: layout compartido de pestañas (`react-bootstrap` `Tab.Container`) + grilla de `ProjectCard`.
+- **ProjectCard**: card con imagen, overlay de color por `variant` y nombre/descripción.
+- **Footer**: enlaces de contacto y navegación de regreso al inicio.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-
-## Autores ✒️
-
-* **Jonathan Fernandez** - [Jonathand77](https://github.com/Jonathand77)
-
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-## Expressions of Gratitude 🎁
+---
+## **Fin de la guía y manual de usuario.**
 
 * Tell others about this project 📢
-* Say thank you publicly 🤓.
+* Say thank you publicly 🤓
 
 ---
 ⌨️ by [Jonathand77](https://github.com/Jonathand77) 😊
