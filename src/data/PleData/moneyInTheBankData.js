@@ -241,26 +241,26 @@ export const moneyInTheBankDetail = {
           imgUrl: logo6,
         },
         {
-          id: "mitb-logo-2018-2021",
+          id: "mitb-logo-2018",
           title: "Money In The Bank",
           description:
             "Irresistible force meets the meanest woman on the planet 2018",
           imgUrl: logo7,
         },
         {
-          id: "mitb-logo-2018-2021",
+          id: "mitb-logo-2019",
           title: "Money In The Bank",
           description: "2019",
           imgUrl: logo7,
         },
         {
-          id: "mitb-logo-2018-2021",
+          id: "mitb-logo-2020",
           title: "Money In The Bank",
           description: "Climb the corporate ladder The risk worth reward 2020",
           imgUrl: logo7,
         },
         {
-          id: "mitb-logo-2018-2021",
+          id: "mitb-logo-2021",
           title: "Money In The Bank",
           description: "2021",
           imgUrl: logo7,

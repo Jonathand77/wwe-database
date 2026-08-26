@@ -3,4 +3,5 @@ export { getBrandDetailById, hasBrandDetail } from './BrandData/brandDetailsData
 export { defaultCarouselResponsive } from './carouselConfig';
 export { getEventDetailById, hasEventDetail } from './EventsData/eventDetailsData';
 export { events } from './EventsData/eventsData';
+export { historicEvents } from './HistoricEventsData/historicEventsData';
 export { rosterTabs } from './RosterData/rosterData';

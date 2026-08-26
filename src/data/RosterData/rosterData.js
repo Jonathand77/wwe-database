@@ -175,7 +175,7 @@ export const rosterTabs = [
         imgUrl: braunStrowman,
       },
       {
-        id: "erick-rowan",
+        id: "erick-rowan-2",
         title: "Erick Rowan",
         description: "Ramblin´ Rabbit",
         imgUrl: erickRowan,

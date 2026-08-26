@@ -171,13 +171,13 @@ export const summerSlamDetail = {
           imgUrl: logo20,
         },
         {
-          id: "summerslam-logo-2010-2011",
+          id: "summerslam-logo-2010",
           title: "SummerSlam",
           description: "2010",
           imgUrl: logo21,
         },
         {
-          id: "summerslam-logo-2010-2011",
+          id: "summerslam-logo-2011",
           title: "SummerSlam",
           description: "The Biggest Party of the Summer 2011",
           imgUrl: logo21,
@@ -195,19 +195,19 @@ export const summerSlamDetail = {
           imgUrl: logo23,
         },
         {
-          id: "summerslam-logo-2014-2021",
+          id: "summerslam-logo-2014-2019",
           title: "SummerSlam",
           description: "2014 - 2019",
           imgUrl: logo24,
         },
         {
-          id: "summerslam-logo-2014-2021",
+          id: "summerslam-logo-2020",
           title: "SummerSlam",
           description: "You'll Never See It Coming 2020",
           imgUrl: logo24,
         },
         {
-          id: "summerslam-logo-2014-2021",
+          id: "summerslam-logo-2021",
           title: "SummerSlam",
           description: "Your Summer Vacation Destination 2021",
           imgUrl: logo24,

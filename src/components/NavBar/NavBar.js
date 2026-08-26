@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { id: 'home', label: 'Home', href: '#home' },
   { id: 'brands', label: 'Brands', href: '#brands' },
   { id: 'events', label: 'Events', href: '#events' },
+  { id: 'historic-events', label: 'Legacy PLEs', href: '#historic-events' },
   { id: 'projects', label: 'Champions', href: '#projects' },
   { id: 'to-come', label: 'To Come', href: '#to-come' },
 ];

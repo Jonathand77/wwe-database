@@ -1,0 +1,159 @@
+.historic-events {
+  padding: 0 0 clamp(54px, 7vw, 88px);
+  position: relative;
+}
+
+.historic-events h2 {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 700;
+}
+
+.historic-events p {
+  color: var(--color-muted);
+  font-size: clamp(15px, 2vw, 18px);
+  letter-spacing: 0.35px;
+  line-height: 1.65;
+  margin: 16px auto clamp(28px, 6vw, 64px);
+  max-width: 900px;
+}
+
+.historic-events .historic-events-box {
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  padding: clamp(30px, 5vw, 58px) clamp(18px, 5vw, 50px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(6px);
+}
+
+.historic-events .historic-events-slider {
+  width: min(95%, 1120px);
+  margin: 0 auto;
+  position: relative;
+}
+
+.historic-events .historic-events-slider .historic-events-item {
+  position: relative;
+  padding: 12px;
+  border-radius: 20px;
+  margin: 10px;
+  overflow: hidden;
+  background: var(--color-surface);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: inherit;
+  cursor: default;
+  appearance: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  will-change: transform;
+}
+
+.historic-events .historic-events-slider .historic-events-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 3px;
+  border-radius: 0 0 4px 4px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.historic-events .historic-events-slider .historic-events-item:hover {
+  transform: translateY(-6px) scale(1.02);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  z-index: 5;
+}
+
+.historic-events .historic-events-slider .historic-events-item:hover::before {
+  transform: scaleX(1);
+}
+
+.historic-events .historic-events-slider .historic-events-item--active {
+  cursor: pointer;
+}
+
+.historic-events .historic-events-slider .historic-events-item--active:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 2px;
+}
+
+.historic-events .historic-events-slider .historic-events-item--disabled {
+  opacity: 0.8;
+}
+
+.historic-events .historic-events-slider .historic-events-item--disabled:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.historic-events .historic-events-slider .historic-events-item--disabled:hover::before {
+  transform: scaleX(0);
+}
+
+.historic-events .historic-events-slider .historic-events-item img {
+  width: min(60%, 176px);
+  margin: 0 auto 12px;
+  transition: transform 0.3s ease;
+}
+
+.historic-events .historic-events-slider .historic-events-item--active:hover img {
+  transform: scale(1.08);
+}
+
+.historic-events .historic-events-slider .historic-events-item h5 {
+  font-size: 0.93rem;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.historic-events .historic-events-slider .react-multiple-carousel__arrow {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(4px);
+  transition: transform 0.22s ease, border-color 0.22s ease, background-color 0.22s ease;
+}
+
+.historic-events .historic-events-slider .react-multiple-carousel__arrow::before {
+  font-size: 16px;
+}
+
+.historic-events .historic-events-slider .react-multiple-carousel__arrow:hover {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  transform: scale(1.08);
+}
+
+.historic-events .historic-events-slider .react-multiple-carousel__arrow:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.7);
+  outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  .historic-events .historic-events-box {
+    border-radius: 20px;
+  }
+
+  .historic-events .historic-events-slider .historic-events-item {
+    min-height: 196px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .historic-events .historic-events-slider .historic-events-item,
+  .historic-events .historic-events-slider .historic-events-item img,
+  .historic-events .historic-events-slider .historic-events-item::before,
+  .historic-events .historic-events-slider .react-multiple-carousel__arrow {
+    transition: none;
+  }
+}

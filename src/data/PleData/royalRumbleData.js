@@ -305,20 +305,20 @@ export const royalRumbleEventDetails = {
             imgUrl: logo2,
           },
           {
-            id: "logo3",
+            id: "logo3-1990",
             title: "Royal Rumble",
             description: "Every Man for Himself! 1990",
             imgUrl: logo3,
           },
           {
-            id: "logo3",
+            id: "logo3-1991",
             title: "Royal Rumble",
             description:
               "Friend vs. Friend, Foe vs. Foe. It's Every Man for Himself! 1991",
             imgUrl: logo3,
           },
           {
-            id: "logo3",
+            id: "logo3-1992-1994",
             title: "Royal Rumble",
             description: "1992 - 1994",
             imgUrl: logo3,
@@ -330,13 +330,13 @@ export const royalRumbleEventDetails = {
             imgUrl: logo4,
           },
           {
-            id: "logo5",
+            id: "logo5-1996",
             title: "Royal Rumble",
             description: "You've been WARNED! 1996",
             imgUrl: logo5,
           },
           {
-            id: "logo5",
+            id: "logo5-1997",
             title: "Royal Rumble",
             description: "No More Mr. Nice Guy! 1997",
             imgUrl: logo5,
@@ -432,13 +432,13 @@ export const royalRumbleEventDetails = {
             imgUrl: logo20,
           },
           {
-            id: "logo21",
+            id: "logo21-2013",
             title: "Royal Rumble",
             description: "Finally... 2013",
             imgUrl: logo21,
           },
           {
-            id: "logo21",
+            id: "logo21-2014",
             title: "Royal Rumble",
             description: "2014",
             imgUrl: logo21,
@@ -456,13 +456,13 @@ export const royalRumbleEventDetails = {
             imgUrl: logo23,
           },
           {
-            id: "logo24",
+            id: "logo24-2017",
             title: "Royal Rumble",
             description: "Remember the Rumble 2017",
             imgUrl: logo24,
           },
           {
-            id: "logo24",
+            id: "logo24-2018",
             title: "Royal Rumble",
             description: "2018",
             imgUrl: logo24,

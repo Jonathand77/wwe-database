@@ -60,6 +60,10 @@
   background: linear-gradient(90.21deg, #1b0781 -5.91%, #e7e318 111.58%);
 }
 
+.proj-imgbx--backlash::before {
+  background: linear-gradient(90.21deg, #6f0f2a -5.91%, #1a1a1a 111.58%);
+}
+
 .proj-imgbx--clash-at-the-castle::before {
   background: linear-gradient(90.21deg, #3f5b12 -5.91%, #ff5724 111.58%);
 }
@@ -90,6 +94,62 @@
 
 .proj-imgbx--nxt::before {
   background: linear-gradient(90.21deg, #000000 -5.91%, #d4af37 111.58%);
+}
+
+.proj-imgbx--wrestling-classic::before {
+  background: linear-gradient(90.21deg, #16cad0 -5.91%, #e0e010 111.58%);
+}
+
+.proj-imgbx--king-of-the-ring::before {
+  background: linear-gradient(90.21deg, #72089c -5.91%, #c49b14 111.58%);
+}
+
+.proj-imgbx--this-tuesday-in-texas::before {
+  background: linear-gradient(90.21deg, #edeef1 -5.91%, #1c3f8a 111.58%);
+}
+
+.proj-imgbx--in-your-house::before {
+  background: linear-gradient(90.21deg, #e00fa9 -5.91%, #0013a2 111.58%);
+}
+
+.proj-imgbx--one-night-only::before {
+  background: linear-gradient(90.21deg, #0b1f4a -5.91%, #ff3333 111.58%);
+}
+
+.proj-imgbx--mayhem-in-manchester::before {
+  background: linear-gradient(90.21deg, #810707 -5.91%, #353535 111.58%);
+}
+
+.proj-imgbx--capital-carnage::before {
+  background: linear-gradient(90.21deg, #0f2d5c -5.91%, #a6161c 111.58%);
+}
+
+.proj-imgbx--unforgiven::before {
+  background: linear-gradient(90.21deg, #1a1a1a -5.91%, #8603aa 111.58%);
+}
+
+.proj-imgbx--over-the-edge::before {
+  background: linear-gradient(90.21deg, #000000 -5.91%, #900329 111.58%);
+}
+
+.proj-imgbx--fully-loaded::before {
+  background: linear-gradient(90.21deg, #6f0f2a -5.91%, #ff7a00 111.58%);
+}
+
+.proj-imgbx--no-mercy::before {
+  background: linear-gradient(90.21deg, #940505 -5.91%, #b9b8b8 111.58%);
+}
+
+.proj-imgbx--rebellion::before {
+  background: linear-gradient(90.21deg, #8a0000 -5.91%, #b18738 111.58%);
+}
+
+.proj-imgbx--armageddon::before {
+  background: linear-gradient(90.21deg, #1f1f1f -5.91%, #ca6d09 111.58%);
+}
+
+.proj-imgbx--no-way-out::before {
+  background: linear-gradient(90.21deg, #000000 -5.91%, #d0ff41 111.58%);
 }
 
 .proj-imgbx:hover::before {

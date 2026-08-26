@@ -105,12 +105,11 @@
 .events .events-slider .events-item img {
   width: min(60%, 176px);
   margin: 0 auto 12px;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .events .events-slider .events-item--active:hover img {
   transform: scale(1.08);
-  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
 }
 
 .events .events-slider .events-item h5 {
