@@ -12,6 +12,21 @@ import eventNoMercy from "../../assets/img/historicEvents/LogoNoMercy/1999.png";
 import eventRebellion from "../../assets/img/historicEvents/LogoRebellion/1999-2000.png";
 import eventArmageddon from "../../assets/img/historicEvents/LogoArmageddon/1999.png";
 import eventNoWayOut from "../../assets/img/historicEvents/LogoNoWayOut/2000.png";
+import eventInsurrextion from "../../assets/img/historicEvents/LogoInsurrextion/2000-2001.png";
+import eventJudgmentDay from "../../assets/img/historicEvents/LogoJudmentDay/2000.png";
+import eventInvasion from "../../assets/img/historicEvents/LogoOnlysPPV/InV.png";
+import eventVengeance from "../../assets/img/historicEvents/LogoVengeance/2001.png";
+import eventBadBlood from "../../assets/img/historicEvents/LogoBadBlood/2003.png";
+import eventGAB from "../../assets/img/historicEvents/LogoGAB/2004-2005.png";
+import eventTaboo from "../../assets/img/historicEvents/LogoTaboo/2004.png";
+import eventNYR from "../../assets/img/historicEvents/LogoNYR/2005.png";
+import eventONS from "../../assets/img/historicEvents/LogoONS/2005.png";
+import eventCyberSunday from "../../assets/img/historicEvents/LogoCyberSunday/2006.png";
+import eventDTD from "../../assets/img/historicEvents/LogoOnlysPPV/DTD.png";
+import eventNOC from "../../assets/img/historicEvents/LogoNOC/2008-2009.png";
+import eventBreakingPoint from "../../assets/img/historicEvents/LogoOnlysPPV/BP.png";
+import eventHIAC from "../../assets/img/historicEvents/LogoHellInACell/2009.png";
+import eventBraggingRights from "../../assets/img/historicEvents/LogoBraggingRights/2009.png";
 
 export const historicEvents = [
   {
@@ -97,5 +112,95 @@ export const historicEvents = [
     name: "NO WAY OUT",
     image: eventNoWayOut,
     alt: "No Way Out event poster",
+  },
+  {
+    id: "insurrextion",
+    name: "INSURREXTION",
+    image: eventInsurrextion,
+    alt: "Insurrextion event poster",
+  },
+  {
+    id: "judgment-day",
+    name: "JUDGMENT DAY",
+    image: eventJudgmentDay,
+    alt: "Judgment Day event poster",
+  },
+  {
+    id: "invasion",
+    name: "INVASION",
+    image: eventInvasion,
+    alt: "Invasion event poster",
+  },
+  {
+    id: "vengeance",
+    name: "VENGEANCE",
+    image: eventVengeance,
+    alt: "Vengeance event poster",
+  },
+  {
+    id: "bad-blood",
+    name: "BAD BLOOD",
+    image: eventBadBlood,
+    alt: "Bad Blood event poster",
+  },
+  {
+    id: "great-american-bash",
+    name: "GREAT AMERICAN BASH",
+    image: eventGAB,
+    alt: "Great American Bash event poster",
+  },
+  {
+    id: "taboo-tuesday",
+    name: "TABOO TUESDAY",
+    image: eventTaboo,
+    alt: "Taboo Tuesday event poster",
+  },
+  {
+    id: "new-years-revolution",
+    name: "NEW YEAR'S REVOLUTION",
+    image: eventNYR,
+    alt: "New Year's Revolution event poster",
+  },
+  {
+    id: "one-night-stand",
+    name: "ONE NIGHT STAND",
+    image: eventONS,
+    alt: "One Night Stand event poster",
+  },
+  {
+    id: "cyber-sunday",
+    name: "CYBER SUNDAY",
+    image: eventCyberSunday,
+    alt: "Cyber Sunday event poster",
+  },
+  {
+    id: "december-to-dismember",
+    name: "DECEMBER TO DISMEMBER",
+    image: eventDTD,
+    alt: "December to Dismember event poster",
+  },
+  {
+    id: "night-of-champions",
+    name: "NIGHT OF CHAMPIONS",
+    image: eventNOC,
+    alt: "Night of Champions event poster",
+  },
+  {
+    id: "breaking-point",
+    name: "BREAKING POINT",
+    image: eventBreakingPoint,
+    alt: "Breaking Point event poster",
+  },
+  {
+    id: "hell-in-a-cell",
+    name: "HELL IN A CELL",
+    image: eventHIAC,
+    alt: "Hell in a Cell event poster",
+  },
+  {
+    id: "bragging-rights",
+    name: "BRAGGING RIGHTS",
+    image: eventBraggingRights,
+    alt: "Bragging Rights event poster",
   },
 ];

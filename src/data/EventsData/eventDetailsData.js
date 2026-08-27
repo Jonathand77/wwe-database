@@ -21,6 +21,21 @@ import { overTheEdgeDetail } from "../HistoricPleData/overTheEdgeData";
 import { rebellionDetail } from "../HistoricPleData/rebellionData";
 import { unforgivenDetail } from "../HistoricPleData/unforgivenData";
 import { noWayOutDetail } from "../HistoricPleData/noWayOutData";
+import { insurrextionDetail } from "../HistoricPleData/insurrextionData";
+import { judgmentDayDetail } from "../HistoricPleData/judmentDayData";
+import { invasionDetail } from "../HistoricPleData/invasionData";
+import { vengeanceDetail } from "../HistoricPleData/vengeanceData";
+import { badBloodDetail } from "../HistoricPleData/badBloodData";
+import { greatAmericanBashDetail } from "../HistoricPleData/greatAmericanBashData";
+import { tabooTuesdayDetail } from "../HistoricPleData/tabooTuesdayData";
+import { newYearsRevolutionDetail } from "../HistoricPleData/newYearsRevolutionData";
+import { oneNightStandDetail } from "../HistoricPleData/oneNightStandData";
+import { cyberSundayDetail } from "../HistoricPleData/cyberSundayData";
+import { decemberToDismemberDetail } from "../HistoricPleData/decemberToDismemberData";
+import { nightOfChampionsDetail } from "../HistoricPleData/nightOfChampionsData";
+import { breakingPointDetail } from "../HistoricPleData/breakingPointData";
+import { hellInACellDetail } from "../HistoricPleData/hellInACellData";
+import { braggingRightsDetail } from "../HistoricPleData/braggingRightsData";
 
 export const eventDetails = {
   ...royalRumbleEventDetails,
@@ -46,6 +61,21 @@ export const eventDetails = {
   ...rebellionDetail,
   ...unforgivenDetail,
   ...noWayOutDetail,
+  ...insurrextionDetail,
+  ...judgmentDayDetail,
+  ...invasionDetail,
+  ...vengeanceDetail,
+  ...badBloodDetail,
+  ...greatAmericanBashDetail,
+  ...tabooTuesdayDetail,
+  ...newYearsRevolutionDetail,
+  ...oneNightStandDetail,
+  ...cyberSundayDetail,
+  ...decemberToDismemberDetail,
+  ...nightOfChampionsDetail,
+  ...breakingPointDetail,
+  ...hellInACellDetail,
+  ...braggingRightsDetail,
 };
 
 export const getEventDetailById = (eventId) => eventDetails[eventId] || null;

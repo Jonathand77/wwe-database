@@ -152,6 +152,66 @@
   background: linear-gradient(90.21deg, #000000 -5.91%, #d0ff41 111.58%);
 }
 
+.proj-imgbx--insurrextion::before {
+  background: linear-gradient(90.21deg, #c8102e -5.91%, #474f62 111.58%);
+}
+
+.proj-imgbx--judgment-day::before {
+  background: linear-gradient(90.21deg, #360c4d -5.91%, #c9a227 111.58%);
+}
+
+.proj-imgbx--invasion::before {
+  background: linear-gradient(90.21deg, #ff0926 -5.91%, #000000 111.58%);
+}
+
+.proj-imgbx--vengeance::before {
+  background: linear-gradient(90.21deg, #3a0000 -5.91%, #ff4500 111.58%);
+}
+
+.proj-imgbx--bad-blood::before {
+  background: linear-gradient(90.21deg, #4c0717 -5.91%, #c40233 111.58%);
+}
+
+.proj-imgbx--great-american-bash::before {
+  background: linear-gradient(90.21deg, #010dfa -5.91%, #ffffff 111.58%);
+}
+
+.proj-imgbx--taboo-tuesday::before {
+  background: linear-gradient(90.21deg, #ffffff -5.91%, #000000 111.58%);
+}
+
+.proj-imgbx--new-years-revolution::before {
+  background: linear-gradient(90.21deg, #000000 -5.91%, #ffd700 111.58%);
+}
+
+.proj-imgbx--one-night-stand::before {
+  background: linear-gradient(90.21deg, #0a0a0a -5.91%, #e10600 111.58%);
+}
+
+.proj-imgbx--cyber-sunday::before {
+  background: linear-gradient(90.21deg, #7e0101 -5.91%, #4a4e4e 111.58%);
+}
+
+.proj-imgbx--december-to-dismember::before {
+  background: linear-gradient(90.21deg, #3c0387 -5.91%, #e2e523 111.58%);
+}
+
+.proj-imgbx--night-of-champions::before {
+  background: linear-gradient(90.21deg, #ffee00 -5.91%, #c0c0c0 111.58%);
+}
+
+.proj-imgbx--breaking-point::before {
+  background: linear-gradient(90.21deg, #1b1b1b -5.91%, #161c23 111.58%);
+}
+
+.proj-imgbx--hell-in-a-cell::before {
+  background: linear-gradient(90.21deg, #f6dd00 -5.91%, #8b0000 111.58%);
+}
+
+.proj-imgbx--bragging-rights::before {
+  background: linear-gradient(90.21deg, #c8102e -5.91%, #0a3161 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }
