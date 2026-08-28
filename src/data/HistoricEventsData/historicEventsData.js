@@ -23,12 +23,51 @@ import eventNYR from "../../assets/img/historicEvents/LogoNYR/2005.png";
 import eventONS from "../../assets/img/historicEvents/LogoONS/2005.png";
 import eventCyberSunday from "../../assets/img/historicEvents/LogoCyberSunday/2006.png";
 import eventDTD from "../../assets/img/historicEvents/LogoOnlysPPV/DTD.png";
-import eventNOC from "../../assets/img/historicEvents/LogoNOC/2008-2009.png";
 import eventBreakingPoint from "../../assets/img/historicEvents/LogoOnlysPPV/BP.png";
 import eventHIAC from "../../assets/img/historicEvents/LogoHellInACell/2009.png";
 import eventBraggingRights from "../../assets/img/historicEvents/LogoBraggingRights/2009.png";
+import eventTLC from "../../assets/img/historicEvents/LogoTLC/2009.png";
+import eventExtremeRules from "../../assets/img/historicEvents/LogoExtremeRules/2010.png";
+import eventOverTheLimit from "../../assets/img/historicEvents/LogoOverTheLimit/2010.png";
+import eventFatal4Way from "../../assets/img/historicEvents/LogoOnlysPPV/FF4.png";
+import eventCapitolPunishment from "../../assets/img/historicEvents/LogoOnlysPPV/CapP.png";
+import eventPayback from "../../assets/img/historicEvents/LogoPayback/2013.png";
+import eventBattleground from "../../assets/img/historicEvents/LogoBattleground/2013.png";
+import eventFastlane from "../../assets/img/historicEvents/LogoFastlane/2015.png";
+import eventNetworkSpecials from "../../assets/img/historicEvents/LogoNetworkSpecials/BITE.png";
+import eventRoadblock from "../../assets/img/historicEvents/LogoRoadblock/2016-1.png";
+import eventClashOfChampions from "../../assets/img/historicEvents/LogoClashofChampions/2016.png";
+import eventGreatBallsOfFire from "../../assets/img/historicEvents/LogoOnlysPPV/GBOF.png";
+import eventGreatestRoyalRumble from "../../assets/img/historicEvents/LogoOnlysPPV/GRR.png";
+import eventSuperShowDown from "../../assets/img/historicEvents/LogoSuperShowdown/2018.png";
+import eventEvolution from "../../assets/img/historicEvents/LogoEvolution/2018.png";
+import eventStompingGrounds from "../../assets/img/historicEvents/LogoOnlysPPV/SG.png";
+import eventDay1 from "../../assets/img/historicEvents/LogoDay1/2022.png";
+import eventBashInBerlin from "../../assets/img/historicEvents/LogoOnlysPPV/BIB.png";
+import eventWrestlePalooza from "../../assets/img/historicEvents/LogoOnlysPPV/WP.png";
+import { getEventDetailById } from "../EventsData/eventDetailsData";
 
-export const historicEvents = [
+// Events that keep the representative image defined below instead of deriving it
+// from the last edition in their detail data.
+const KEEP_ORIGINAL_IMAGE = new Set([
+  "in-your-house",
+  "new-years-revolution",
+  "day-1",
+  "great-american-bash",
+]);
+
+const getLastEditionImage = (eventId) => {
+  const detail = getEventDetailById(eventId);
+  if (!detail || !Array.isArray(detail.tabs)) return null;
+  const editionsTab =
+    detail.tabs.find((tab) => tab.id === "editions") || detail.tabs[0];
+  const items =
+    editionsTab && Array.isArray(editionsTab.items) ? editionsTab.items : [];
+  if (items.length === 0) return null;
+  return items[items.length - 1].imgUrl || null;
+};
+
+const baseHistoricEvents = [
   {
     id: "king-of-the-ring",
     name: "KING OF THE RING",
@@ -180,12 +219,6 @@ export const historicEvents = [
     alt: "December to Dismember event poster",
   },
   {
-    id: "night-of-champions",
-    name: "NIGHT OF CHAMPIONS",
-    image: eventNOC,
-    alt: "Night of Champions event poster",
-  },
-  {
     id: "breaking-point",
     name: "BREAKING POINT",
     image: eventBreakingPoint,
@@ -203,4 +236,124 @@ export const historicEvents = [
     image: eventBraggingRights,
     alt: "Bragging Rights event poster",
   },
+  {
+    id: "tlc",
+    name: "TLC: TABLES, LADDERS & CHAIRS",
+    image: eventTLC,
+    alt: "TLC: Tables, Ladders & Chairs event poster",
+  },
+  {
+    id: "extreme-rules",
+    name: "EXTREME RULES",
+    image: eventExtremeRules,
+    alt: "Extreme Rules event poster",
+  },
+  {
+    id: "over-the-limit",
+    name: "OVER THE LIMIT",
+    image: eventOverTheLimit,
+    alt: "Over the Limit event poster",
+  },
+  {
+    id: "fatal-4-way",
+    name: "FATAL 4-WAY",
+    image: eventFatal4Way,
+    alt: "Fatal 4-Way event poster",
+  },
+  {
+    id: "capitol-punishment",
+    name: "CAPITOL PUNISHMENT",
+    image: eventCapitolPunishment,
+    alt: "Capitol Punishment event poster",
+  },
+  {
+    id: "payback",
+    name: "PAYBACK",
+    image: eventPayback,
+    alt: "Payback event poster",
+  },
+  {
+    id: "battleground",
+    name: "BATTLEGROUND",
+    image: eventBattleground,
+    alt: "Battleground event poster",
+  },
+  {
+    id: "fastlane",
+    name: "FASTLANE",
+    image: eventFastlane,
+    alt: "Fastlane event poster",
+  },
+  {
+    id: "network-specials",
+    name: "WWE NETWORK SPECIALS",
+    image: eventNetworkSpecials,
+    alt: "WWE Network Specials event poster",
+  },
+  {
+    id: "roadblock",
+    name: "ROADBLOCK",
+    image: eventRoadblock,
+    alt: "Roadblock event poster",
+  },
+  {
+    id: "clash-of-champions",
+    name: "CLASH OF CHAMPIONS",
+    image: eventClashOfChampions,
+    alt: "Clash of Champions event poster",
+  },
+  {
+    id: "great-balls-of-fire",
+    name: "GREAT BALLS OF FIRE",
+    image: eventGreatBallsOfFire,
+    alt: "Great Balls of Fire event poster",
+  },
+  {
+    id: "greatest-royal-rumble",
+    name: "GREATEST ROYAL RUMBLE",
+    image: eventGreatestRoyalRumble,
+    alt: "Greatest Royal Rumble event poster",
+  },
+  {
+    id: "super-showdown",
+    name: "SUPER SHOWDOWN",
+    image: eventSuperShowDown,
+    alt: "Super ShowDown event poster",
+  },
+  {
+    id: "evolution",
+    name: "EVOLUTION",
+    image: eventEvolution,
+    alt: "Evolution event poster",
+  },
+  {
+    id: "stomping-grounds",
+    name: "STOMPING GROUNDS",
+    image: eventStompingGrounds,
+    alt: "Stomping Grounds event poster",
+  },
+  {
+    id: "day-1",
+    name: "DAY 1",
+    image: eventDay1,
+    alt: "Day 1 event poster",
+  },
+  {
+    id: "bash-in-berlin",
+    name: "BASH IN BERLIN",
+    image: eventBashInBerlin,
+    alt: "Bash in Berlin event poster",
+  },
+  {
+    id: "wrestlepalooza",
+    name: "WRESTLEPALOOZA",
+    image: eventWrestlePalooza,
+    alt: "WrestlePalooza event poster",
+  },
 ];
+
+export const historicEvents = baseHistoricEvents.map((event) => {
+  if (KEEP_ORIGINAL_IMAGE.has(event.id)) return event;
+  const lastEditionImage = getLastEditionImage(event.id);
+  return lastEditionImage ? { ...event, image: lastEditionImage } : event;
+});

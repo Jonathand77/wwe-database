@@ -212,6 +212,86 @@
   background: linear-gradient(90.21deg, #c8102e -5.91%, #0a3161 111.58%);
 }
 
+.proj-imgbx--tlc::before {
+  background: linear-gradient(90.21deg, #b0b3b8 -5.91%, #8b0000 111.58%);
+}
+
+.proj-imgbx--extreme-rules::before {
+  background: linear-gradient(90.21deg, #d10000 -5.91%, #1a0000 111.58%);
+}
+
+.proj-imgbx--over-the-limit::before {
+  background: linear-gradient(90.21deg, #123c7a -5.91%, #ff7f11 111.58%);
+}
+
+.proj-imgbx--fatal-4-way::before {
+  background: linear-gradient(90.21deg, #af0448 -5.91%, #9aa0a6 111.58%);
+}
+
+.proj-imgbx--capitol-punishment::before {
+  background: linear-gradient(90.21deg, #3c3b6e -5.91%, #8a8d91 111.58%);
+}
+
+.proj-imgbx--payback::before {
+  background: linear-gradient(90.21deg, #0a0a0a -5.91%, #0722b9 111.58%);
+}
+
+.proj-imgbx--battleground::before {
+  background: linear-gradient(90.21deg, #fca504 -5.91%, #6b7f3a 111.58%);
+}
+
+.proj-imgbx--fastlane::before {
+  background: linear-gradient(90.21deg, #fffb2a -5.91%, #d0d3d8 111.58%);
+}
+
+.proj-imgbx--network-specials::before {
+  background: linear-gradient(90.21deg, #0a0a0a -5.91%, #df2d00 111.58%);
+}
+
+.proj-imgbx--roadblock::before {
+  background: linear-gradient(90.21deg, #e10600 -5.91%, #f2c200 111.58%);
+}
+
+.proj-imgbx--clash-of-champions::before {
+  background: linear-gradient(90.21deg, #c9a227 -5.91%, #1a1a1a 111.58%);
+}
+
+.proj-imgbx--great-balls-of-fire::before {
+  background: linear-gradient(90.21deg, #ff6a00 -5.91%, #8b0000 111.58%);
+}
+
+.proj-imgbx--greatest-royal-rumble::before {
+  background: linear-gradient(90.21deg, #d4af37 -5.91%, #0f5132 111.58%);
+}
+
+.proj-imgbx--super-showdown::before {
+  background: linear-gradient(90.21deg, #0a3161 -5.91%, #d4af37 111.58%);
+}
+
+.proj-imgbx--evolution::before {
+  background: linear-gradient(90.21deg, #6a1b9a -5.91%, #ff4fa3 111.58%);
+}
+
+.proj-imgbx--stomping-grounds::before {
+  background: linear-gradient(90.21deg, #3f5b12 -5.91%, #7a4a21 111.58%);
+}
+
+.proj-imgbx--day-1::before {
+  background: linear-gradient(90.21deg, #fcfafa -5.91%, #ff0101 111.58%);
+}
+
+.proj-imgbx--bash-in-berlin::before {
+  background: linear-gradient(90.21deg, #000000 -5.91%, #d39f00 111.58%);
+}
+
+.proj-imgbx--saturday-nights-main-event::before {
+  background: linear-gradient(90.21deg, #041842 -5.91%, #6f0101 111.58%);
+}
+
+.proj-imgbx--wrestlepalooza::before {
+  background: linear-gradient(90.21deg, #2405d3 -5.91%, #cfda05 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }

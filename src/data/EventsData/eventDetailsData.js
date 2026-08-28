@@ -7,6 +7,8 @@ import { moneyInTheBankDetail } from "../PleData/moneyInTheBankData";
 import { summerSlamDetail } from "../PleData/summerSlamData";
 import { crownJewelDetail } from "../PleData/crownJewelData";
 import { survivorSeriesDetail } from "../PleData/survivorSeriesData";
+import { nightOfChampionsDetail } from "../PleData/nightOfChampionsData";
+import { saturdayNightsMainEventDetail } from "../PleData/saturdayNightsMainEventData";
 import { theWrestlingClassicDetail } from "../HistoricPleData/theWrestlingClassicData";
 import { kingOfTheRingDetail } from "../HistoricPleData/kingOfTheRingData";
 import { thisTuesdayInTexasDetail } from "../HistoricPleData/thisTuesdayInTexasData";
@@ -32,10 +34,28 @@ import { newYearsRevolutionDetail } from "../HistoricPleData/newYearsRevolutionD
 import { oneNightStandDetail } from "../HistoricPleData/oneNightStandData";
 import { cyberSundayDetail } from "../HistoricPleData/cyberSundayData";
 import { decemberToDismemberDetail } from "../HistoricPleData/decemberToDismemberData";
-import { nightOfChampionsDetail } from "../HistoricPleData/nightOfChampionsData";
 import { breakingPointDetail } from "../HistoricPleData/breakingPointData";
 import { hellInACellDetail } from "../HistoricPleData/hellInACellData";
 import { braggingRightsDetail } from "../HistoricPleData/braggingRightsData";
+import { tlcDetail } from "../HistoricPleData/tlcData";
+import { extremeRulesDetail } from "../HistoricPleData/extremeRulesData";
+import { overTheLimitDetail } from "../HistoricPleData/overTheLimitData";
+import { fatal4WayDetail } from "../HistoricPleData/fatal4WayData";
+import { capitolPunishmentDetail } from "../HistoricPleData/capitolPunishmentData";
+import { paybackDetail } from "../HistoricPleData/paybackData";
+import { battlegroundDetail } from "../HistoricPleData/battlegroundData";
+import { fastlaneDetail } from "../HistoricPleData/fastlaneData";
+import { networkSpecialsDetail } from "../HistoricPleData/networkSpecialsData";
+import { roadblockDetail } from "../HistoricPleData/roadblockData";
+import { clashOfChampionsDetail } from "../HistoricPleData/clashOfChampionsData";
+import { greatBallsOfFireDetail } from "../HistoricPleData/greatBallsOfFireData";
+import { greatestRoyalRumbleDetail } from "../HistoricPleData/greatestRoyalRumbleData";
+import { superShowDownDetail } from "../HistoricPleData/superShowDownData";
+import { evolutionDetail } from "../HistoricPleData/evolutionData";
+import { stompingGroundsDetail } from "../HistoricPleData/stompingGroundsData";
+import { day1Detail } from "../HistoricPleData/day1Data";
+import { bashInBerlinDetail } from "../HistoricPleData/bashInBerlinData";
+import { wrestlePaloozaDetail } from "../HistoricPleData/wrestlePaloozaData";
 
 export const eventDetails = {
   ...royalRumbleEventDetails,
@@ -47,6 +67,8 @@ export const eventDetails = {
   summerslam: summerSlamDetail,
   "crown-jewel": crownJewelDetail,
   "survivor-series": survivorSeriesDetail,
+  "night-of-champions": nightOfChampionsDetail,
+  "saturday-nights-main-event": saturdayNightsMainEventDetail,
   ...theWrestlingClassicDetail,
   ...kingOfTheRingDetail,
   ...thisTuesdayInTexasDetail,
@@ -72,10 +94,28 @@ export const eventDetails = {
   ...oneNightStandDetail,
   ...cyberSundayDetail,
   ...decemberToDismemberDetail,
-  ...nightOfChampionsDetail,
   ...breakingPointDetail,
   ...hellInACellDetail,
   ...braggingRightsDetail,
+  ...tlcDetail,
+  ...extremeRulesDetail,
+  ...overTheLimitDetail,
+  ...fatal4WayDetail,
+  ...capitolPunishmentDetail,
+  ...paybackDetail,
+  ...battlegroundDetail,
+  ...fastlaneDetail,
+  ...networkSpecialsDetail,
+  ...roadblockDetail,
+  ...clashOfChampionsDetail,
+  ...greatBallsOfFireDetail,
+  ...greatestRoyalRumbleDetail,
+  ...superShowDownDetail,
+  ...evolutionDetail,
+  ...stompingGroundsDetail,
+  ...day1Detail,
+  ...bashInBerlinDetail,
+  ...wrestlePaloozaDetail,
 };
 
 export const getEventDetailById = (eventId) => eventDetails[eventId] || null;

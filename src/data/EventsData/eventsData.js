@@ -10,6 +10,8 @@ import eventSS from "../../assets/img/events/SummerSlam.png";
 //import eventBB from '../assets/img/events/EventBB.png';
 import eventCJ from "../../assets/img/events/CrownJewel.png";
 import eventSSWG from "../../assets/img/events/SurvivorSeries.png";
+import eventNOC from "../../assets/img/historicEvents/LogoNOC/2023-2026.png";
+import eventSNME from "../../assets/img/historicEvents/LogoSNME/2024-2026.png";
 
 export const events = [
   {
@@ -49,6 +51,12 @@ export const events = [
     alt: "Clash at the Castle event poster",
   },
   {
+    id: "night-of-champions",
+    name: "NIGHT OF CHAMPIONS",
+    image: eventNOC,
+    alt: "Night of Champions event poster",
+  },
+  {
     id: "mitb",
     name: "MONEY IN THE BANK",
     image: eventMITB,
@@ -59,6 +67,12 @@ export const events = [
     name: "SUMMERSLAM",
     image: eventSS,
     alt: "SummerSlam event poster",
+  },
+  {
+    id: "saturday-nights-main-event",
+    name: "SATURDAY NIGHT'S MAIN EVENT",
+    image: eventSNME,
+    alt: "Saturday Night's Main Event event poster",
   },
   /*{ id: 'bash-berlin', 
     name: 'BASH IN BERLIN', 
