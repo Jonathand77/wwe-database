@@ -3,6 +3,7 @@ export { Banner } from './Banner';
 export { Brands } from './Brands';
 export { Events } from './Events';
 export { HistoricEvents } from './HistoricEvents';
+export { NxtEvents } from './NxtEvents';
 export { Projects } from './Projects';
 export { ProjectCard } from './ProjectCard';
 export { DetailView } from './DetailView';

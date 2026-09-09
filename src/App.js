@@ -12,6 +12,7 @@ import {
   Brands,
   Events,
   HistoricEvents,
+  NxtEvents,
   EventDetail,
   BrandDetail,
 } from './components';
@@ -72,6 +73,7 @@ function App() {
         <Brands onSelectBrand={handleSelectBrand} />
         <Events onSelectEvent={handleSelectEvent} />
         <HistoricEvents onSelectEvent={handleSelectEvent} />
+        <NxtEvents onSelectEvent={handleSelectEvent} />
         <Projects />
         <ToCome />
       </>

@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { id: 'brands', label: 'Brands', href: '#brands' },
   { id: 'events', label: 'Events', href: '#events' },
   { id: 'historic-events', label: 'Legacy PLEs', href: '#historic-events' },
+  { id: 'nxt-events', label: 'NXT PLEs', href: '#nxt-events' },
   { id: 'projects', label: 'Champions', href: '#projects' },
   { id: 'to-come', label: 'To Come', href: '#to-come' },
 ];

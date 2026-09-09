@@ -292,6 +292,51 @@
   background: linear-gradient(90.21deg, #2405d3 -5.91%, #cfda05 111.58%);
 }
 
+.proj-imgbx--nxt-arrival::before,
+.proj-imgbx--nxt-take-over::before,
+.proj-imgbx--nxt-stand-and-deliver::before,
+.proj-imgbx--nxt-war-games::before,
+.proj-imgbx--nxt-worlds-collide::before,
+.proj-imgbx--nxt-halloween-havoc::before {
+  background: linear-gradient(90.21deg, #000000 -5.91%, #d4af37 111.58%);
+}
+
+.proj-imgbx--nxt-halloween-havoc::before {
+  background: linear-gradient(90.21deg, #0a0a0a -5.91%, #ff7a00 111.58%);
+}
+
+.proj-imgbx--nxt-in-your-house::before {
+  background: linear-gradient(90.21deg, #ff5eb8 -5.91%, #ffd400 111.58%);
+}
+
+.proj-imgbx--nxt-deadline::before {
+  background: linear-gradient(90.21deg, #d4af37 -5.91%, #c0c0c0 111.58%);
+}
+
+.proj-imgbx--nxt-vengeance-day::before {
+  background: linear-gradient(90.21deg, #c8102e -5.91%, #ffffff 111.58%);
+}
+
+.proj-imgbx--nxt-battleground::before {
+  background: linear-gradient(90.21deg, #c8102e -5.91%, #d4af37 111.58%);
+}
+
+.proj-imgbx--nxt-great-american-bash::before {
+  background: linear-gradient(90.21deg, #c8102e -5.91%, #0a3161 111.58%);
+}
+
+.proj-imgbx--nxt-no-mercy::before {
+  background: linear-gradient(90.21deg, #0a0a0a -5.91%, #c0c0c0 111.58%);
+}
+
+.proj-imgbx--nxt-heat-wave::before {
+  background: linear-gradient(90.21deg, #ff7a00 -5.91%, #ffd400 111.58%);
+}
+
+.proj-imgbx--nxt-worlds-collide::before {
+  background: linear-gradient(90.21deg, #d4af37 -5.91%, #0a3161 111.58%);
+}
+
 .proj-imgbx:hover::before {
   height: 100%;
 }

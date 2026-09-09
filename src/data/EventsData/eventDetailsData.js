@@ -56,6 +56,19 @@ import { stompingGroundsDetail } from "../HistoricPleData/stompingGroundsData";
 import { day1Detail } from "../HistoricPleData/day1Data";
 import { bashInBerlinDetail } from "../HistoricPleData/bashInBerlinData";
 import { wrestlePaloozaDetail } from "../HistoricPleData/wrestlePaloozaData";
+import { nxtArrivalDetail } from "../NxtPleData/nxtArrivalData";
+import { nxtTakeOverDetail } from "../NxtPleData/nxtTakeOverData";
+import { nxtStandAndDeliverDetail } from "../NxtPleData/nxtStandAndDeliverData";
+import { nxtWarGamesDetail } from "../NxtPleData/nxtWarGamesData";
+import { nxtInYourHouseDetail } from "../NxtPleData/nxtInYourHouseData";
+import { nxtWorldsCollideDetail } from "../NxtPleData/nxtWorldsCollideData";
+import { nxtHalloweenHavocDetail } from "../NxtPleData/nxtHalloweenHavocData";
+import { nxtDeadlineDetail } from "../NxtPleData/nxtDeadlineData";
+import { nxtVengeanceDayDetail } from "../NxtPleData/nxtVengeanceDayData";
+import { nxtBattlegroundDetail } from "../NxtPleData/nxtBattlegroundData";
+import { nxtGreatAmericanBashDetail } from "../NxtPleData/nxtGreatAmericanBashData";
+import { nxtNoMercyDetail } from "../NxtPleData/nxtNoMercyData";
+import { nxtHeatWaveDetail } from "../NxtPleData/nxtHeatWaveData";
 
 export const eventDetails = {
   ...royalRumbleEventDetails,
@@ -116,6 +129,19 @@ export const eventDetails = {
   ...day1Detail,
   ...bashInBerlinDetail,
   ...wrestlePaloozaDetail,
+  ...nxtArrivalDetail,
+  ...nxtTakeOverDetail,
+  ...nxtStandAndDeliverDetail,
+  ...nxtWarGamesDetail,
+  ...nxtInYourHouseDetail,
+  ...nxtWorldsCollideDetail,
+  ...nxtHalloweenHavocDetail,
+  ...nxtDeadlineDetail,
+  ...nxtVengeanceDayDetail,
+  ...nxtBattlegroundDetail,
+  ...nxtGreatAmericanBashDetail,
+  ...nxtNoMercyDetail,
+  ...nxtHeatWaveDetail,
 };
 
 export const getEventDetailById = (eventId) => eventDetails[eventId] || null;
