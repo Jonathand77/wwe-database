@@ -1,4 +1,5 @@
 import logo2020 from "../../assets/img/nxtEvents/LogoVengeanceDay/VengeanceDay.png";
+import logo2022 from "../../assets/img/nxtEvents/LogoVengeanceDay/VengeanceDay2022.png";
 import logo2023_2024 from "../../assets/img/nxtEvents/LogoVengeanceDay/VengeanceDay2023-2024.png";
 import logo2025 from "../../assets/img/nxtEvents/LogoVengeanceDay/VengeanceDay2025.png";
 import logo2026 from "../../assets/img/nxtEvents/LogoVengeanceDay/VengeanceDay2026.png";
@@ -19,6 +20,12 @@ export const nxtVengeanceDayDetail = {
             title: "TakeOver",
             description: "Vengeance Day 2021",
             imgUrl: logo2020,
+          },
+          {
+            id: "nxt-vengeance-day-2022",
+            title: "Vengeance Day",
+            description: "NXT special episode 2022",
+            imgUrl: logo2022,
           },
           {
             id: "nxt-vengeance-day-2023",
